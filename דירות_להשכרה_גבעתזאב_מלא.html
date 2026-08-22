@@ -1,0 +1,3722 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>דירות להשכרה בג"ז — מאגר מלא</title>
+<style>
+:root{--bg:#f4f6f8;--card:#fff;--ink:#1f2a37;--sub:#5b6b7b;--line:#e3e8ee;--brand:#0f7b6c;--brand2:#e7f4f1;--accent:#c2410c;--shadow:0 1px 3px rgba(16,24,40,.08),0 1px 2px rgba(16,24,40,.04)}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+header{background:linear-gradient(135deg,#0f7b6c,#0b5f54);color:#fff;padding:26px 20px}
+header h1{margin:0 0 6px;font-size:23px}
+header p{margin:0;opacity:.9;font-size:13.5px}
+.wrap{max-width:1100px;margin:0 auto;padding:18px}
+.bar{position:sticky;top:0;background:var(--bg);padding:12px 0;z-index:10;border-bottom:1px solid var(--line)}
+.bar input{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;font-size:15px;background:#fff}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px;align-items:center}
+.fbtn{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:6px 13px;font-size:13px;cursor:pointer}
+.fbtn.on{background:var(--brand);color:#fff;border-color:var(--brand)}
+.rlabel{font-size:13px;color:var(--sub);font-weight:600;margin-inline-end:2px}
+.rbtn{border:1px solid var(--line);background:#fff;color:var(--sub);border-radius:999px;padding:6px 13px;font-size:13px;cursor:pointer;min-width:38px}
+.rbtn.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.count{font-size:13px;color:var(--sub);margin-inline-start:auto}
+.link{display:inline-block;margin-top:10px;color:#fff;font-size:13px;background:rgba(255,255,255,.18);padding:7px 13px;border-radius:8px;text-decoration:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:15px;margin-top:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:15px;display:flex;flex-direction:column;gap:9px}
+.top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px}
+.date{font-weight:700;color:var(--brand)}
+.src{background:var(--brand2);color:var(--brand);padding:2px 8px;border-radius:999px}
+.btag{background:#fef3e2;color:var(--accent);padding:2px 8px;border-radius:999px;font-weight:600}
+.body{font-size:14px;white-space:pre-line;color:#374151}
+.imgs{display:flex;gap:6px;flex-wrap:wrap}
+.imgs img{width:calc(50% - 3px);height:110px;object-fit:cover;border-radius:9px;border:1px solid var(--line);cursor:pointer}
+.imgs.single img{width:100%;height:auto;object-fit:contain}
+.foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid var(--line);padding-top:10px}
+.phone{font-size:15px;font-weight:700;direction:ltr}
+.call{background:var(--brand);color:#fff;text-decoration:none;font-size:13px;font-weight:600;padding:8px 14px;border-radius:9px}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;z-index:99;padding:20px}
+.lightbox.on{display:flex}.lightbox img{max-width:100%;max-height:100%;border-radius:8px}
+footer{text-align:center;color:var(--sub);font-size:12px;padding:22px}
+.tbtn{border:1px solid #d4a017;background:#fff;color:#b8860b;border-radius:999px;padding:6px 13px;font-size:13px;cursor:pointer;font-weight:600}
+.tbtn.on{background:#d4a017;color:#fff}
+.addbtn{border:1px solid var(--brand);background:var(--brand);color:#fff;border-radius:999px;padding:6px 14px;font-size:13px;cursor:pointer;font-weight:600}
+.ttag{background:#fdf6e3;color:#b8860b;padding:2px 8px;border-radius:999px;font-weight:600;border:1px solid #f0e0b0}
+.mynote{background:#eef6ff;border:1px solid #cfe3fb;color:#1f4e79;border-radius:10px;padding:8px 12px;font-size:13px;margin-top:10px}
+/* סעיף תקנון */
+.takanon-box{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);margin-top:16px;overflow:hidden}
+.takanon-head{background:linear-gradient(135deg,#b8860b,#8a6508);color:#fff;padding:13px 16px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:15px}
+.takanon-body{padding:16px;display:none}
+.takanon-body.on{display:block}
+.takanon-body h3{margin:14px 0 6px;font-size:15px;color:var(--brand)}
+.takanon-body ol,.takanon-body ul{margin:6px 0;padding-inline-start:22px;font-size:13.5px}
+.takanon-body li{margin:3px 0}
+.ttable-wrap{overflow-x:auto;margin:10px 0}
+table.ttable{border-collapse:collapse;font-size:12px;min-width:640px;width:100%;text-align:center}
+table.ttable th,table.ttable td{border:1px solid var(--line);padding:4px 6px}
+table.ttable thead th{background:var(--brand2);color:var(--brand)}
+table.ttable td:first-child,table.ttable th:first-child{background:var(--brand2);font-weight:700}
+.tsrc{font-size:12px;color:var(--sub);margin-top:8px}
+/* טופס הוספה */
+.addform{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:16px;margin-top:16px;display:none}
+.addform.on{display:block}
+.addform label{display:block;font-size:13px;font-weight:600;margin:8px 0 3px;color:var(--sub)}
+.addform input[type=text],.addform textarea,.addform select{width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:8px;font-size:14px;background:#fff;font-family:inherit}
+.addform textarea{min-height:90px;resize:vertical}
+.addform .row2{display:flex;gap:10px;flex-wrap:wrap}
+.addform .row2>div{flex:1;min-width:130px}
+.addform .chk{display:flex;align-items:center;gap:7px;margin-top:10px;font-size:14px;font-weight:600;color:var(--ink)}
+.addform .chk input{width:18px;height:18px}
+.addform .acts{display:flex;gap:8px;margin-top:12px}
+.addform .save{background:var(--brand);color:#fff;border:none;border-radius:9px;padding:10px 18px;font-size:14px;font-weight:700;cursor:pointer}
+.addform .cancel{background:#eee;color:#333;border:none;border-radius:9px;padding:10px 18px;font-size:14px;cursor:pointer}
+.card.mine{border-color:#8ac;box-shadow:0 0 0 2px #cfe3fb inset,var(--shadow)}
+.delbtn{background:none;border:none;color:#c0392b;font-size:12px;cursor:pointer;text-decoration:underline}
+@media (prefers-color-scheme:dark){:root{--bg:#0f151b;--card:#1a222c;--ink:#e6edf3;--sub:#9aa5b1;--line:#2a3540;--brand:#3bbfa9;--brand2:#12312c}header{background:linear-gradient(135deg,#0b5f54,#073e37)}.bar input{background:#1a222c;color:#e6edf3}.fbtn{background:#1a222c}.rbtn{background:#1a222c}.tbtn{background:#1a222c}.body{color:#c7d0d9}.addform input[type=text],.addform textarea,.addform select{background:#0f151b;color:#e6edf3}.ttag{background:#2a2410;border-color:#4a3f1a}.mynote{background:#12233a;border-color:#1f4e79;color:#bcd8f5}.takanon-body h3{color:var(--brand)}}
+</style></head><body>
+<header>
+<h1>🏠 דירות להשכרה בגבעת זאב — מאגר מלא</h1>
+<p>מקבוצות וואטסאפ + התכתבויות אישיות · 164 פרסומים · חיפוש, סינון חדרים ומחיר-תקנון · כולל התקנון הרשמי · ממוין מהחדש לישן</p>
+<div class="mynote" style="background:rgba(255,255,255,.15);border-color:rgba(255,255,255,.3);color:#fff">📝 הצורך שלך (מהצ'אט האישי): 4 זוגות, 9 ילדים, 3 תינוקות</div>
+</header>
+<div class="wrap">
+<div class="bar">
+<input id="q" type="text" placeholder="🔍 חיפוש: רחוב, מספר חדרים, מחיר, טלפון…">
+<div class="filters">
+<button class="fbtn on" data-f="all">הכל</button>
+<button class="fbtn" data-f="broker">⚠️ ייתכן תיווך</button>
+<button class="fbtn" data-f="year:2026">2026</button><button class="fbtn" data-f="year:2025">2025</button><button class="fbtn" data-f="year:2024">2024</button><button class="fbtn" data-f="year:2022">2022</button>
+<span class="count" id="count"></span>
+</div>
+<div class="filters" id="roomrow">
+<span class="rlabel">🛏️ חדרים:</span>
+<button class="rbtn on" data-r="all">הכל</button>
+<button class="rbtn" data-r="2">2</button>
+<button class="rbtn" data-r="3">3</button>
+<button class="rbtn" data-r="4">4</button>
+<button class="rbtn" data-r="5">5</button>
+<button class="rbtn" data-r="6plus">6+</button>
+<button class="rbtn" data-r="none">לא צוין</button>
+<span style="display:inline-block;width:10px"></span>
+<button class="tbtn" id="tbtn">💰 מחיר תקנון</button>
+<span class="count" style="margin-inline-start:auto"><button class="addbtn" id="addToggle">➕ הוסף דירה</button></span>
+</div>
+</div>
+
+<div class="takanon-box">
+  <div class="takanon-head" id="takanonHead">
+    <span>📜 התקנון הרשמי — שכירות דירות לראש השנה תשפ"ו (קרלין סטולין, גבעת זאב)</span>
+    <span id="takanonArrow">▼</span>
+  </div>
+  <div class="takanon-body" id="takanonBody">
+    <p style="font-size:13px;color:var(--sub);margin:0 0 6px">מחירים לפי מספר מיטות × מרחק הליכה מבית הכנסת × מספר חדרים (בשקלים):</p>
+    <div class="ttable-wrap">
+    <table class="ttable">
+      <thead>
+        <tr><th rowspan="2">מיטות</th><th colspan="3">במרחק עד 10 דקות</th><th colspan="3">במרחק עד 20 דקות</th><th colspan="3">יותר מ-20 דקות</th></tr>
+        <tr><th>עד 3 חד'</th><th>4 חד'</th><th>מעל 5</th><th>עד 3 חד'</th><th>4 חד'</th><th>מעל 5</th><th>עד 3 חד'</th><th>4 חד'</th><th>מעל 5</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>2</td><td>1190</td><td>1380</td><td>1570</td><td>1090</td><td>1240</td><td>1390</td><td>1050</td><td>1140</td><td>1240</td></tr>
+        <tr><td>3</td><td>1440</td><td>1630</td><td>1820</td><td>1310</td><td>1440</td><td>1590</td><td>1250</td><td>1340</td><td>1440</td></tr>
+        <tr><td>4</td><td>1690</td><td>1880</td><td>2070</td><td>1530</td><td>1640</td><td>1790</td><td>1450</td><td>1540</td><td>1640</td></tr>
+        <tr><td>5</td><td>1940</td><td>2130</td><td>2320</td><td>1750</td><td>1840</td><td>1990</td><td>1650</td><td>1740</td><td>1840</td></tr>
+        <tr><td>6</td><td>2190</td><td>2380</td><td>2570</td><td>1970</td><td>2040</td><td>2190</td><td>1850</td><td>1940</td><td>2040</td></tr>
+        <tr><td>7</td><td>2440</td><td>2630</td><td>2820</td><td>2190</td><td>2240</td><td>2390</td><td>2050</td><td>2140</td><td>2240</td></tr>
+        <tr><td>8</td><td>2690</td><td>2880</td><td>3070</td><td>2410</td><td>2440</td><td>2590</td><td>2250</td><td>2340</td><td>2440</td></tr>
+        <tr><td>9</td><td>2940</td><td>3130</td><td>3320</td><td>2630</td><td>2640</td><td>2790</td><td>2450</td><td>2540</td><td>2640</td></tr>
+        <tr><td>10</td><td>3190</td><td>3380</td><td>3570</td><td>2850</td><td>2840</td><td>2990</td><td>2650</td><td>2740</td><td>2840</td></tr>
+        <tr><td>11</td><td>3440</td><td>3630</td><td>3820</td><td>3070</td><td>3040</td><td>3190</td><td>2850</td><td>2940</td><td>3040</td></tr>
+        <tr><td>12</td><td>3690</td><td>3880</td><td>4070</td><td>3290</td><td>3240</td><td>3390</td><td>3050</td><td>3140</td><td>3240</td></tr>
+        <tr><td>13</td><td>3940</td><td>4130</td><td>4320</td><td>3510</td><td>3440</td><td>3590</td><td>3250</td><td>3340</td><td>3440</td></tr>
+        <tr><td>14</td><td>4190</td><td>4380</td><td>4570</td><td>3730</td><td>3640</td><td>3790</td><td>3450</td><td>3540</td><td>3640</td></tr>
+        <tr><td>15</td><td>4440</td><td>4630</td><td>4820</td><td>3950</td><td>3840</td><td>3990</td><td>3650</td><td>3740</td><td>3840</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <h3>הערות חשובות</h3>
+    <ol>
+      <li>כדי שיוכלו לעמוד יותר על התקנון מבקשים מכלל הציבור לעמוד על התקנון. בדירות היותר מרווחות יש יותר היצע, וכך אפשר יותר לשמור עליו.</li>
+      <li>בעז"הי יועמד אשל לבנות סמינר.</li>
+      <li>תקנון הדירות הוא לטובת הכלל ולטובת הפרט.</li>
+      <li>בזאת הננו להדגיש: השוכר דירה שלא לפי התקנון הרי הוא חב לאחריני!</li>
+    </ol>
+    <h3>שבע נקודות לגבי התקנון</h3>
+    <ol>
+      <li>'דירה' – משמעותה הראויה לדיור עם הציוד המלא (כלי מיטה, מקרר, שולחן, כיסאות, וכו'). דירה שחסר בה אחד מהדברים הבסיסיים – יש להפחית מהמחיר לפחות 100 ש"ח.</li>
+      <li>חדר פירושו שאפשר להכניס בו לפחות 2 מיטות בצורה מרווחת.</li>
+      <li>מספר החדרים כולל בתוכו גם את חדר המגורים – הסלון.</li>
+      <li>על מזרון שהמשכיר מביא יש לשלם 100 ש"ח.</li>
+      <li>על מזרון שהשוכר מביא יש לשלם 50 ש"ח.</li>
+      <li>כל מיטה שאינה נוחה לשינת מבוגר נחשבת כמזרון.</li>
+      <li>דירה ללא מזגן – המחיר מופחת בסך 75 ש"ח.</li>
+    </ol>
+    <p class="tsrc">מקור: בית הכנסת הגדול של קרלין סטולין, גבעת זאב · פורסם בקבוצת הוואטסאפ 21.8.2026.</p>
+  </div>
+</div>
+
+<div class="addform" id="addForm">
+  <label>תיאור הדירה (טקסט חופשי)</label>
+  <textarea id="afText" placeholder="לדוגמה: דירת 4 חדרים ברחוב הברוש, 8 מיטות, 10 דק' הליכה, מזגנים בכל הבית…"></textarea>
+  <div class="row2">
+    <div><label>טלפון</label><input type="text" id="afPhone" placeholder="050-1234567"></div>
+    <div><label>מספר חדרים</label>
+      <select id="afRooms"><option value="0">לא צוין</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select>
+    </div>
+    <div><label>רחוב / שם מפרסם (לא חובה)</label><input type="text" id="afSrc" placeholder="למשל: רחוב הברוש / חדוה"></div>
+  </div>
+  <label class="chk"><input type="checkbox" id="afTakanon"> 💰 מחיר לפי תקנון</label>
+  <div class="acts">
+    <button class="save" id="afSave">💾 שמור דירה</button>
+    <button class="cancel" id="afCancel">ביטול</button>
+    <button class="cancel" id="afExport">⬇️ ייצוא לגיבוי</button>
+    <button class="cancel" id="afImport">⬆️ ייבוא מגיבוי</button>
+    <input type="file" id="afFile" accept="application/json" style="display:none">
+  </div>
+  <p style="font-size:12px;color:var(--sub);margin:8px 0 0">הדירות שתוסיף נשמרות בדפדפן שלך (במכשיר הזה) ומופיעות בראש הרשימה עם מסגרת כחולה. לגיבוי קבוע / מעבר בין מכשירים — לחץ «ייצוא לגיבוי» ושמור את הקובץ (או העלה ל-GitHub).</p>
+</div>
+
+<div class="grid" id="grid">
+<div class="card" data-year="2026" data-broker="0" data-text="🔒 מהתכתבות אישית שלך. דירה בקרית יערים, גבעת זאב. 5 דקות מבית הכנסת. 4 חדרי שינה. סלון ענק ומטבח ענק. המחיר לראש השנה 12,000 ₪. (נשלחו תמונות בפרטי) 058-700-4144 התכתבות אישית">
+  <div class="top"><span class="date">23.8.2026</span><span class="src">🔒 התכתבות אישית</span></div>
+  <div class="body">🔒 <b>מהתכתבות אישית שלך</b>
+דירה ב<b>קרית יערים</b>, גבעת זאב.
+5 דקות מבית הכנסת.
+4 חדרי שינה.
+סלון ענק ומטבח ענק.
+💰 המחיר לראש השנה: <b>12,000 ₪</b>.
+(נשלחו תמונות בפרטי בוואטסאפ)</div>
+  <div class="foot"><span class="phone">058-700-4144</span><a class="call" href="tel:+972587004144">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="✨ להשכרה לראש השנה. דירת 4 חדרים מרווחת ברחוב לולב. 8 דק' הליכה. כניסה פרטית + חצר גדולה ומרווחת. מקום לינה עד 14 איש. מקום לאכילה 20+ איש. פרטיות מלאה. דירה נקייה ומסודרת. מטבח כשר: מיחם, פלטה, מקרר גדול. אופציה ליחידה נוספת לזוג. חדוה קאופמן 054-546-6509 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">21.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  <div class="body">✨ להשכרה לראש השנה
+🏠 דירת 4 חדרים מרווחת ברחוב לולב
+🚶 8 דק' הליכה
+🌳 כניסה פרטית + חצר גדולה ומרווחת
+✅ מקום לינה עד 14 איש
+✅ מקום לאכילה 20+ איש
+✅ פרטיות מלאה
+✅ דירה נקייה ומסודרת
+✅ מטבח כשר: מיחם, פלטה, מקרר גדול
+אופציה ליחידה נוספת לזוג
+(חדוה קאופמן)</div>
+  <div class="foot"><span class="phone">054-546-6509</span><a class="call" href="tel:+972545466509">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="דירה ברחוב התאנה. 15 דק' הליכה. 2 חדרי שינה, סלון ומטבח גדולים מאוד. 2 שירותים. מרפסת גדולה. פינת ישיבה. שולחן אוכל. מקרר גדול על מצב שבת + פלטה + קומקום שבת. הדירה נקייה, נוחה, מוארת ומסודרת. מחיר תקנון. 058-449-2449 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">21.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  <div class="body">📍 רחוב התאנה, 15 דק' הליכה
+🏠 2 חדרי שינה, סלון ומטבח גדולים מאוד
+🚿 2 שירותים
+מרפסת גדולה · פינת ישיבה · שולחן אוכל
+מקרר גדול על מצב שבת + פלטה + קומקום שבת
+הדירה נקייה, נוחה, מוארת ומסודרת.
+💰 מחיר תקנון</div>
+  <div class="foot"><span class="phone">058-449-2449</span><a class="call" href="tel:+972584492449">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="💗 שירה דרעי. להשכרה לראש השנה. דירת 4 חדרים מרווחת, משופצת ונקייה, עם חצר וגינה פרטית ונדנדה. דירה יפיפייה ונעימה. מזגן. פלטה ומיחם. חצר וגינה מפנקות. מתאימה במיוחד למשפחה. 051-225-0726 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">21.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  <div class="body">🏡 להשכרה לראש השנה (שירה דרעי)
+דירת 4 חדרים מרווחת, משופצת ונקייה, עם חצר וגינה פרטית ונדנדה 🌳
+✨ דירה יפיפייה ונעימה
+❄️ מזגן · פלטה ומיחם
+חצר וגינה מפנקות
+מתאימה במיוחד למשפחה שרוצה ליהנות מראש השנה באווירה נוחה וביתית</div>
+  <div class="foot"><span class="phone">051-225-0726</span><a class="call" href="tel:+972512250726">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="1" data-text="דירת 3 חדרים (2 חדרי שינה) עם 4 מיטות ברחוב המכבים מעל המרכז המסחרי, פנויה לראש השנה. יש מזגנים בכל החדרים. עזרא שרפמן / Israeli Golden Assets 053-220-3548 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">20.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  <div class="body">דירת 3 חדרים (2 חדרי שינה) עם 4 מיטות ברחוב המכבים מעל המרכז המסחרי, פנויה לראש השנה.
+יש מזגנים בכל החדרים.
+(עזרא שרפמן / Israeli Golden Assets)</div>
+  <div class="foot"><span class="phone">053-220-3548</span><a class="call" href="tel:+972532203548">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="Pazzel. דירה לשמחת תורה (לראש השנה תפוס). 4 חדרי שינה. 10 מיטות, 7 מזרנים. חצר נחמדה. קרית יערים פינת הלולב. 052-766-7880 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">20.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  <div class="body">דירה לשמחת תורה (לראש השנה תפוס)
+4 חדרי שינה
+10 מיטות, 7 מזרנים
+חצר נחמדה
+📍 קרית יערים פינת הלולב</div>
+  <div class="foot"><span class="phone">052-766-7880</span><a class="call" href="tel:+972527667880">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="תמר. להשכרה לראש השנה. דירת 4 חדרים גדולה ברחוב התאנה (17 דקות מקרלין). 3 חדרי שינה, 7 מיטות + 2 מיטות בסלון + מיטת תינוק. סלון גדול מאוד כך שאפשר להוסיף עוד מזרנים (שהמשכירים יכולים לספק). 2 אמבטיות. מרפסת וגינה עם נדנדה 3 מושבים. 054-654-5148 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">20.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  <div class="body">להשכרה לראש השנה (תמר)
+דירת 4 חדרים גדולה ברחוב התאנה (17 דקות מקרלין)
+3 חדרי שינה, 7 מיטות + 2 מיטות בסלון + מיטת תינוק
+סלון גדול מאוד — אפשר להוסיף מזרנים (המשכירים מספקים)
+🚿 2 אמבטיות
+מרפסת וגינה עם נדנדה 3 מושבים</div>
+  <div class="foot"><span class="phone">054-654-5148</span><a class="call" href="tel:+972546545148">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="ר.ד. להשכרה לראש השנה. דירת 4 חדרים גדולה ברחוב המכבים. 3 חדרי שינה, 8 מיטות. (יש במקלט עוד מזרן גדול. 2 מזרנים של מיטת מעבר). סלון גדול מאוד כך שאפשר להוסיף עוד מזרנים. חצר גדולה. מטבח מרווח. למשפחה נקייה ושומרת על הרכוש. 058-692-1177 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">20.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  <div class="body">להשכרה לראש השנה (ר.ד)
+דירת 4 חדרים גדולה ברחוב המכבים
+3 חדרי שינה, 8 מיטות
+(יש במקלט עוד מזרן גדול · 2 מזרנים של מיטת מעבר)
+סלון גדול מאוד — אפשר להוסיף מזרנים
+חצר גדולה · מטבח מרווח
+למשפחה נקייה ושומרת על הרכוש 😊</div>
+  <div class="foot"><span class="phone">058-692-1177</span><a class="call" href="tel:+972586921177">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="Bracha. בית פרטי מפנק לאירוח בחג – בקרבת האוהל של הרב מקרלין, כ-15 דקות הליכה. מרווח ומטופח. קומת קרקע: סלון גדול ומרווח, מטבח מאובזר (פלטה, מיחם), חצר, שירותים, פינת נטילת ידיים. קומה שנייה: 4 חדרי שינה, חדר משחקים מפנק, 2 שירותים, 2 חדרי אמבטיה, פינת נטילת ידיים. 7 מיטות קיימות, ובמידת הצורך מזרונים נוספים (עד 12 איש). בסמוך גינת משחקים. ממוזג ונקי. 054-656-6681 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">19.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  <div class="body">🏡 בית פרטי מפנק לאירוח בחג (Bracha)
+בקרבת האוהל של הרב מקרלין · כ-15 דקות הליכה
+<b>קומת קרקע:</b> סלון גדול ומרווח · מטבח מאובזר (פלטה, מיחם) · חצר · שירותים · פינת נטילת ידיים
+<b>קומה שנייה:</b> 4 חדרי שינה · חדר משחקים · 2 שירותים · 2 חדרי אמבטיה · פינת נטילה
+🛏️ 7 מיטות קיימות + מזרונים לפי צורך (עד 12 איש)
+בסמוך גינת משחקים · הבית ממוזג ונקי</div>
+  <div class="foot"><span class="phone">054-656-6681</span><a class="call" href="tel:+972546566681">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="קוטג' פרטי ענק, 2 קומות, להשכרה לראש השנה. 6 חדרי שינה סגורים. סלון מטבח ענק ומרפסת גדולה. ברחוב שאול המלך. (פורסם עם תמונות בוואטסאפ) דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">19.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  <div class="body">קוטג' פרטי ענק, 2 קומות, להשכרה לראש השנה
+6 חדרי שינה סגורים
+סלון מטבח ענק ומרפסת גדולה
+📍 רחוב שאול המלך
+(פורסם עם תמונות בוואטסאפ)</div>
+  <div class="foot"><span class="phone">—</span></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="דירה ברחוב לבונה, גבעת זאב — הבית השלישי, תחילת הרחוב.
+כ-7/8 דקות מביהכ&quot;נ (קצת עלייה) — אין מקלט.
+3 חדרי שינה + סלון גדול (2 ספות).
+מרפסת סגורה צמודה למטבח — אפשר לישון שם במזג אוויר נוח.
+בפרוזדור מיטה (אחת-שתיים).
+חדר 1: 2 מיטות. חדר 2: מיטה זוגית. חדר 3: 2 מיטות מחוברות (2 מזרונים מעל) + אולי עוד מיטה.
+עליית גג (קומה שלישית) מאובקת — מזרון גדול, לא לישון שם.
+בשמח&quot;ת שילמו ~3,000 ₪. אפשר להביא מזרונים מתנפחים, יש הרבה מקום.  ⭐ נוסף על ידך">
+  <div class="top"><span class="date">18.8.2026</span><span class="src">⭐ נוסף על ידך</span></div>
+  
+  <div class="body">דירה ברחוב לבונה, גבעת זאב — הבית השלישי, תחילת הרחוב.
+כ-7/8 דקות מביהכ&quot;נ (קצת עלייה) — אין מקלט.
+3 חדרי שינה + סלון גדול (2 ספות).
+מרפסת סגורה צמודה למטבח — אפשר לישון שם במזג אוויר נוח.
+בפרוזדור מיטה (אחת-שתיים).
+חדר 1: 2 מיטות. חדר 2: מיטה זוגית. חדר 3: 2 מיטות מחוברות (2 מזרונים מעל) + אולי עוד מיטה.
+עליית גג (קומה שלישית) מאובקת — מזרון גדול, לא לישון שם.
+בשמח&quot;ת שילמו ~3,000 ₪. אפשר להביא מזרונים מתנפחים, יש הרבה מקום.</div>
+  <div class="foot"><span class="phone">—</span></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="דירה ברחוב הרמון, גבעת זאב. לפרטים: 050-628-3492 050-628-3492 ⭐ נוסף על ידך">
+  <div class="top"><span class="date">18.8.2026</span><span class="src">⭐ נוסף על ידך</span></div>
+  
+  <div class="body">דירה ברחוב הרמון, גבעת זאב. לפרטים: 050-628-3492</div>
+  <div class="foot"><span class="phone">050-628-3492</span><a class="call" href="tel:+972506283492">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="דירה ברחוב התאנה, גבעת זאב. לפרטים: 054-944-6491 054-944-6491 ⭐ נוסף על ידך">
+  <div class="top"><span class="date">18.8.2026</span><span class="src">⭐ נוסף על ידך</span></div>
+  
+  <div class="body">דירה ברחוב התאנה, גבעת זאב. לפרטים: 054-944-6491</div>
+  <div class="foot"><span class="phone">054-944-6491</span><a class="call" href="tel:+972549446491">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="דירה ברחוב הרמון, גבעת זאב. לפרטים: 054-754-5281 054-754-5281 ⭐ נוסף על ידך">
+  <div class="top"><span class="date">18.8.2026</span><span class="src">⭐ נוסף על ידך</span></div>
+  
+  <div class="body">דירה ברחוב הרמון, גבעת זאב. לפרטים: 054-754-5281</div>
+  <div class="foot"><span class="phone">054-754-5281</span><a class="call" href="tel:+972547545281">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="דירה בגבעת זאב (פרטים לא נמסרו — להשלמה). לפרטים: 054-841-3414 054-841-3414 ⭐ נוסף על ידך">
+  <div class="top"><span class="date">18.8.2026</span><span class="src">⭐ נוסף על ידך</span></div>
+  
+  <div class="body">דירה בגבעת זאב (פרטים לא נמסרו — להשלמה). לפרטים: 054-841-3414</div>
+  <div class="foot"><span class="phone">054-841-3414</span><a class="call" href="tel:+972548413414">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="דירה בגבעת זאב (פרטים לא נמסרו — להשלמה). לפרטים: 053-961-5630 053-961-5630 ⭐ נוסף על ידך">
+  <div class="top"><span class="date">18.8.2026</span><span class="src">⭐ נוסף על ידך</span></div>
+  
+  <div class="body">דירה בגבעת זאב (פרטים לא נמסרו — להשלמה). לפרטים: 053-961-5630</div>
+  <div class="foot"><span class="phone">053-961-5630</span><a class="call" href="tel:+972539615630">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="דירה בגבעת זאב, סמוך לביהכ&quot;נ.
+3 חדרים סגורים + סלון גדול.
+7 מיטות ועוד מזרונים.
+(נמצא ע&quot;י המשתמש בטבריה.)
+לפרטים: 050-416-6035 050-416-6035 ⭐ נוסף על ידך">
+  <div class="top"><span class="date">18.8.2026</span><span class="src">⭐ נוסף על ידך</span></div>
+  
+  <div class="body">דירה בגבעת זאב, סמוך לביהכ&quot;נ.
+3 חדרים סגורים + סלון גדול.
+7 מיטות ועוד מזרונים.
+(נמצא ע&quot;י המשתמש בטבריה.)
+לפרטים: 050-416-6035</div>
+  <div class="foot"><span class="phone">050-416-6035</span><a class="call" href="tel:+972504166035">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="וילה מפנקת להשכרה בגבעת זאב, הרי ירושלים — פורסמה כפלייר (תמונה למטה). כולל בריכה וטרמפולינה. לפרטים: 053-277-9392 053-277-9392 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">10.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  <div class="imgs single"><img src="תמונות_דירות/dira_villa_mefaneket_flyer.jpg" loading="lazy" onclick="openLb(this.src)"></div>
+  <div class="body">וילה מפנקת להשכרה בגבעת זאב, הרי ירושלים — פורסמה כפלייר (תמונה למטה). כולל בריכה וטרמפולינה. לפרטים: 053-277-9392</div>
+  <div class="foot"><span class="phone">053-277-9392</span><a class="call" href="tel:+972532779392">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה ברחוב הברוש דירת שלושה חדרים חדשה ויפה . 054-687-4156 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">16.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  <div class="imgs"><img src="תמונות_דירות/dira_habrosh_1.jpg" loading="lazy" onclick="openLb(this.src)"><img src="תמונות_דירות/dira_habrosh_2.jpg" loading="lazy" onclick="openLb(this.src)"><img src="תמונות_דירות/dira_habrosh_3.jpg" loading="lazy" onclick="openLb(this.src)"><img src="תמונות_דירות/dira_habrosh_4.jpg" loading="lazy" onclick="openLb(this.src)"></div>
+  <div class="body">להשכרה ברחוב הברוש דירת שלושה חדרים חדשה ויפה .</div>
+  <div class="foot"><span class="phone">054-687-4156</span><a class="call" href="tel:+972546874156">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה לשבת הקרובה
+
+וילה גדולה
+
+6 חדרים סגורים
+
+13 מיטות
+
+20 מזרונים
+
+2 סלונים גדולים
+
+חצר
+
+מתקנים לילדים
+
+טרהפולינה
+
+6 דקות מקרלין
+
+3,500 ש&quot;ח 053-238-7800 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">16.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">להשכרה לשבת הקרובה
+
+וילה גדולה
+
+6 חדרים סגורים
+
+13 מיטות
+
+20 מזרונים
+
+2 סלונים גדולים
+
+חצר
+
+מתקנים לילדים
+
+טרהפולינה
+
+6 דקות מקרלין
+
+3,500 ש&quot;ח</div>
+  <div class="foot"><span class="phone">053-238-7800</span><a class="call" href="tel:+972532387800">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה לראש השנה, דירת 4 חדרים ברחוב התאנה
+
+8 מיטות(2 ספות)
+
+15 דקות הליכה מקרלין
+
+אפשרות למזרונים
+
+מזגן בסלון
+
+יש פלטה ומיחם
+
+0533433433 053-343-3433 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">15.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">להשכרה לראש השנה, דירת 4 חדרים ברחוב התאנה
+
+8 מיטות(2 ספות)
+
+15 דקות הליכה מקרלין
+
+אפשרות למזרונים
+
+מזגן בסלון
+
+יש פלטה ומיחם
+
+0533433433</div>
+  <div class="foot"><span class="phone">053-343-3433</span><a class="call" href="tel:+972533433433">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה לראש השנה, יום כיפור ושמחת תורה
+
+דירת 5 חדרים ענקית, 4 חדרים סגורים.
+
+מוארת וממוזגת סלון ענק!!! ברחוב הברוש מעל המכבים.
+
+
+
+לפרטים 0537987552 053-798-7552 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">15.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">להשכרה לראש השנה, יום כיפור ושמחת תורה
+
+דירת 5 חדרים ענקית, 4 חדרים סגורים.
+
+מוארת וממוזגת סלון ענק!!! ברחוב הברוש מעל המכבים.
+
+
+
+לפרטים 0537987552</div>
+  <div class="foot"><span class="phone">053-798-7552</span><a class="call" href="tel:+972537987552">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה לראש השנה קוטג פרטי 5 חדרים
+
+ברחוב שבט בנימין מול השביל
+
+2 חצרות
+
+3 שירותים
+
+אמבטיה ומקלחת
+
+סלון גדול
+
+מטבח כשר
+
+פלטה ומיחם
+
+8 מיטות
+
+(+מיטת מעבר)
+
+2 מזרונים עבים.
+
+משכירה למי שבא בלי ילדים קטנים ומתחייבים לשמור על הניקיון
+
+תמונות בפרטי
+
+0506521527 050-652-1527 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">15.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">להשכרה לראש השנה קוטג פרטי 5 חדרים
+
+ברחוב שבט בנימין מול השביל
+
+2 חצרות
+
+3 שירותים
+
+אמבטיה ומקלחת
+
+סלון גדול
+
+מטבח כשר
+
+פלטה ומיחם
+
+8 מיטות
+
+(+מיטת מעבר)
+
+2 מזרונים עבים.
+
+משכירה למי שבא בלי ילדים קטנים ומתחייבים לשמור על הניקיון
+
+תמונות בפרטי
+
+0506521527</div>
+  <div class="foot"><span class="phone">050-652-1527</span><a class="call" href="tel:+972506521527">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה דירה 3 חדרים עם חצר לחגים הבעל&quot;ט ביהושע בן נון 0509094047 במחיר נוח 050-909-4047 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">13.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">להשכרה דירה 3 חדרים עם חצר לחגים הבעל&quot;ט ביהושע בן נון 0509094047 במחיר נוח</div>
+  <div class="foot"><span class="phone">050-909-4047</span><a class="call" href="tel:+972509094047">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה לראש השנה ושמחת תורה; דירת 3 חדרים ברח&#x27; יהושוע בן נון.
+
+מיטה יהודית
+
+מטבח כשר,
+
+מזגנים חדשים בכל הדירה
+
+כסאות בשפע.
+
+14 מזרנים 2 עבים מאוד
+
+דירה נקייה מאוד 058-669-9030 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">13.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">להשכרה לראש השנה ושמחת תורה; דירת 3 חדרים ברח&#x27; יהושוע בן נון.
+
+מיטה יהודית
+
+מטבח כשר,
+
+מזגנים חדשים בכל הדירה
+
+כסאות בשפע.
+
+14 מזרנים 2 עבים מאוד
+
+דירה נקייה מאוד</div>
+  <div class="foot"><span class="phone">058-669-9030</span><a class="call" href="tel:+972586699030">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="קוטג&#x27; ענק 2 קומות להשכרה לראש השנה
+
+6 חדרי שינה סלון מטבח ענק ומרפסת גדולה  דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">13.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  <div class="imgs single"><img src="תמונות_דירות/dira_cottage_toorist.jpg" loading="lazy" onclick="openLb(this.src)"></div>
+  <div class="body">קוטג&#x27; ענק 2 קומות להשכרה לראש השנה
+
+6 חדרי שינה סלון מטבח ענק ומרפסת גדולה</div>
+  <div class="foot"><span class="phone">—</span></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="התפנתה דירה בגבעת זאב לשבת הקרובה בשכונה
+
+מול הבית כנסת
+
+שתי מיטות ארבע מזרונים
+
+0556708911 055-670-8911 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">13.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">התפנתה דירה בגבעת זאב לשבת הקרובה בשכונה
+
+מול הבית כנסת
+
+שתי מיטות ארבע מזרונים
+
+0556708911</div>
+  <div class="foot"><span class="phone">055-670-8911</span><a class="call" href="tel:+972556708911">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="דירה ברחוב האדמונית פנויה לשבת הקרובה 7 דק הליכה מהבית כנסת 050-591-5007 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">13.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">דירה ברחוב האדמונית פנויה לשבת הקרובה 7 דק הליכה מהבית כנסת</div>
+  <div class="foot"><span class="phone">050-591-5007</span><a class="call" href="tel:+972505915007">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="וילת נופש מפנקת באווירה כפרית ומיוחדת
+
+
+
+מחפשים מקום מושלם לחופשה משפחתית, שבת או אירוח עם המשפחה והחברים? 
+
+
+
+ וילה מרווחת עם 7 חדרי שינה
+
+ כל חדר ממוזג לחלוטין
+
+ סלון מרווח
+
+ מטבח מאובזר עם כל הצרכים
+
+ בריכה פרטית בגודל 3×6
+
+ שולחן פינג־פונג
+
+ טרמפולינה לילדים
+
+ פינות ישיבה מעץ באווירה כפרית ונעימה
+
+ מצעים ומגבות – הכול מוכן עבורכם, פשוט להגיע ולהתארח!
+
+
+
+ מיקום מושלם למשפחות שומרות שבת:
+
+ בית כנסת ומקווה צמודים לווילה
+
+ פארק שעשועים חווייתי במיוחד לילדים
+
+ נסיעה קצרה מקבר שמואל הנביא
+
+ מסלולי טיול באזור
+
+ קניון רמות במרחק נסיעה קצרה
+
+
+
+ פנוי מעכשיו לחמישי–שישי–שבת!
+
+וכן ניתן להזמין גם לשבתות נוספות.
+
+
+
+ מקום מושלם ליהנות בו מחופשה אמיתית – מרחב, פרטיות, טבע, בריכה ופינוקים לכל המשפחה.
+
+
+
+ ליצירת קשר והזמנות:
+
+שלום – 054-988-5800 054-988-5800 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">13.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">וילת נופש מפנקת באווירה כפרית ומיוחדת
+
+
+
+מחפשים מקום מושלם לחופשה משפחתית, שבת או אירוח עם המשפחה והחברים? 
+
+
+
+ וילה מרווחת עם 7 חדרי שינה
+
+ כל חדר ממוזג לחלוטין
+
+ סלון מרווח
+
+ מטבח מאובזר עם כל הצרכים
+
+ בריכה פרטית בגודל 3×6
+
+ שולחן פינג־פונג
+
+ טרמפולינה לילדים
+
+ פינות ישיבה מעץ באווירה כפרית ונעימה
+
+ מצעים ומגבות – הכול מוכן עבורכם, פשוט להגיע ולהתארח!
+
+
+
+ מיקום מושלם למשפחות שומרות שבת:
+
+ בית כנסת ומקווה צמודים לווילה
+
+ פארק שעשועים חווייתי במיוחד לילדים
+
+ נסיעה קצרה מקבר שמואל הנביא
+
+ מסלולי טיול באזור
+
+ קניון רמות במרחק נסיעה קצרה
+
+
+
+ פנוי מעכשיו לחמישי–שישי–שבת!
+
+וכן ניתן להזמין גם לשבתות נוספות.
+
+
+
+ מקום מושלם ליהנות בו מחופשה אמיתית – מרחב, פרטיות, טבע, בריכה ופינוקים לכל המשפחה.
+
+
+
+ ליצירת קשר והזמנות:
+
+שלום – 054-988-5800</div>
+  <div class="foot"><span class="phone">054-988-5800</span><a class="call" href="tel:+972549885800">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה לראש השנה-
+
+דירה 4 חדרים, 18 מקומות שינה , 8,000 ש&quot;ח.
+
+יהושוע בן נון.
+
+מעיין- 0505066976 050-506-6976 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">13.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">להשכרה לראש השנה-
+
+דירה 4 חדרים, 18 מקומות שינה , 8,000 ש&quot;ח.
+
+יהושוע בן נון.
+
+מעיין- 0505066976</div>
+  <div class="foot"><span class="phone">050-506-6976</span><a class="call" href="tel:+972505066976">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="רחוב הגיא צמוד לפארק
+
+דירת 3 חדרים:
+
+סלון גדול
+
+מטבח גדול
+
+2 חדרי שינה
+
+חצר
+
+7 מיטות +2 ספות
+
+פנויה לשבת הקרובה 055-999-6184 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">10.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">רחוב הגיא צמוד לפארק
+
+דירת 3 חדרים:
+
+סלון גדול
+
+מטבח גדול
+
+2 חדרי שינה
+
+חצר
+
+7 מיטות +2 ספות
+
+פנויה לשבת הקרובה</div>
+  <div class="foot"><span class="phone">055-999-6184</span><a class="call" href="tel:+972559996184">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="וילה ברחוב המכבים 5 חדרי שינה יש מזרונים פנויה מחמישי עד מוצ&quot;ש 10 מיטות אפשר להוסיף מזרונים 052-764-4876 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">10.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">וילה ברחוב המכבים 5 חדרי שינה יש מזרונים פנויה מחמישי עד מוצ&quot;ש 10 מיטות אפשר להוסיף מזרונים</div>
+  <div class="foot"><span class="phone">052-764-4876</span><a class="call" href="tel:+972527644876">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="וילה ברחוב הגיא בגבעת זאב להשכרה בחגים ובשבתות
+
+
+
+קוטג׳ גדול ומרווח, בנוי על 2 קומות, מתאים למשפחה גדולה או למספר משפחות יחד.
+
+ כ־6 דקות הליכה מבית הכנסת קרלין.
+
+
+
+ 4 חדרי שינה | סה״כ 7 מיטות + מקום בשפע למזרנים ולינה נוספת
+
+
+
+מחירים לחגים:
+
+ ראש השנה – תפוס
+
+ יום כיפור – 4,500 ₪
+
+ סוכות – 4,500 ₪ כולל סוכה גדולה
+
+ שמחת תורה – תפוס
+
+
+
+ שבתות פנויות החל מחודש ספטמבר – 2,500 ₪ לשבת
+
+
+
+בקומת הכניסה:
+
+חצר פרטית
+שירותים
+חדר שינה
+מטבח גדול עם מקרר ומקפיא ריקים
+סלון מרווח עם 2 ספות גדולות שיכולות לשמש גם ללינה
+2 שולחנות מתקפלים וכיסאות כתר
+
+
+בקומה השנייה:
+
+יחידת הורים עם שירותים ומקלחת פרטיים
+2 חדרי שינה נוספים
+שידת משחקים מאובזרת לילדים
+שירותים ואמבטיה
+מקום בשפע לפריסת מזרנים ולינה נוספת
+לפרטים נוספים ניתן לפנות בטלפון 0504998091 050-499-8091 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">10.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">וילה ברחוב הגיא בגבעת זאב להשכרה בחגים ובשבתות
+
+
+
+קוטג׳ גדול ומרווח, בנוי על 2 קומות, מתאים למשפחה גדולה או למספר משפחות יחד.
+
+ כ־6 דקות הליכה מבית הכנסת קרלין.
+
+
+
+ 4 חדרי שינה | סה״כ 7 מיטות + מקום בשפע למזרנים ולינה נוספת
+
+
+
+מחירים לחגים:
+
+ ראש השנה – תפוס
+
+ יום כיפור – 4,500 ₪
+
+ סוכות – 4,500 ₪ כולל סוכה גדולה
+
+ שמחת תורה – תפוס
+
+
+
+ שבתות פנויות החל מחודש ספטמבר – 2,500 ₪ לשבת
+
+
+
+בקומת הכניסה:
+
+חצר פרטית
+שירותים
+חדר שינה
+מטבח גדול עם מקרר ומקפיא ריקים
+סלון מרווח עם 2 ספות גדולות שיכולות לשמש גם ללינה
+2 שולחנות מתקפלים וכיסאות כתר
+
+
+בקומה השנייה:
+
+יחידת הורים עם שירותים ומקלחת פרטיים
+2 חדרי שינה נוספים
+שידת משחקים מאובזרת לילדים
+שירותים ואמבטיה
+מקום בשפע לפריסת מזרנים ולינה נוספת
+לפרטים נוספים ניתן לפנות בטלפון 0504998091</div>
+  <div class="foot"><span class="phone">050-499-8091</span><a class="call" href="tel:+972504998091">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="לראש השנה וילה 6 חדרים עם 9 מיטות 9 מזרונים  בית מרווח  גדול 2 מרפסות אחד כייף לארח שולחן גדול לרצינים נייד 050-802-4848 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">9.8.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">לראש השנה וילה 6 חדרים עם 9 מיטות 9 מזרונים  בית מרווח  גדול 2 מרפסות אחד כייף לארח שולחן גדול לרצינים נייד</div>
+  <div class="foot"><span class="phone">050-802-4848</span><a class="call" href="tel:+972508024848">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה לשבת הקרובה לשבת (א’ באלול)
+
+
+
+ רחוב האתרוג – כ־3 דקות הליכה מקרלין.
+
+
+
+ 2 חדרי שינה – 4 מיטות
+
+ סלון ומטבח גדול ומרווח
+
+ מקום בשפע למזרנים
+
+ שירותים ומרפסת
+
+
+
+ 1,000 ₪ לשבת
+
+
+
+ לא פנוי בחגים.
+
+
+
+לפרטים נוספים – מוזמנים לפנות בפרטי 050-499-8091 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">9.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">להשכרה לשבת הקרובה לשבת (א’ באלול)
+
+
+
+ רחוב האתרוג – כ־3 דקות הליכה מקרלין.
+
+
+
+ 2 חדרי שינה – 4 מיטות
+
+ סלון ומטבח גדול ומרווח
+
+ מקום בשפע למזרנים
+
+ שירותים ומרפסת
+
+
+
+ 1,000 ₪ לשבת
+
+
+
+ לא פנוי בחגים.
+
+
+
+לפרטים נוספים – מוזמנים לפנות בפרטי</div>
+  <div class="foot"><span class="phone">050-499-8091</span><a class="call" href="tel:+972504998091">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="יש וילה גדולה  7 חדרים   8 מיטות  10 מזרונים 2 מרפסות גדולות בית מרווח גדול 050-802-4848 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">6.8.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">יש וילה גדולה  7 חדרים   8 מיטות  10 מזרונים 2 מרפסות גדולות בית מרווח גדול</div>
+  <div class="foot"><span class="phone">050-802-4848</span><a class="call" href="tel:+972508024848">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="הדירה שלנו פנויה לשבת לפני ראש השנה ,יום כיפור ושמחת תורה,לא ראש השנה
+
+4 חדרים
+
+10 מיטות
+
+ומזרנים 052-766-7880 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">6.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  <div class="imgs single"><img src="תמונות_דירות/dira_pazzel_kiryat_yearim.jpg" loading="lazy" onclick="openLb(this.src)"></div>
+  <div class="body">הדירה שלנו פנויה לשבת לפני ראש השנה ,יום כיפור ושמחת תורה,לא ראש השנה
+
+4 חדרים
+
+10 מיטות
+
+ומזרנים</div>
+  <div class="foot"><span class="phone">052-766-7880</span><a class="call" href="tel:+972527667880">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="הדירה שלנו פנויה לר&quot;ה
+
+פנטהאוז 5 חדרי שינה וסלון
+
+מרווח נקי ומסודר ברחוב תדהר 0546761181 054-676-1181 דירות להשכרה גב&quot;ז לשבתות וחגים">
+  <div class="top"><span class="date">6.8.2026</span><span class="src">דירות להשכרה גב&quot;ז לשבתות וחגים</span></div>
+  
+  <div class="body">הדירה שלנו פנויה לר&quot;ה
+
+פנטהאוז 5 חדרי שינה וסלון
+
+מרווח נקי ומסודר ברחוב תדהר 0546761181</div>
+  <div class="foot"><span class="phone">054-676-1181</span><a class="call" href="tel:+972546761181">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="דירת נופש מהממת לשבתות וחגים ובין הזמנים בגבעת זאב מול נוף עוצר נשימה אויר הרים צלול, מקום שקט ופסטורלי,
+דירה חדשה ומשופצת כולה . כניסה פרטית ללא מדרגות . רחוב של וילות וקוטג&#x27;ים הדירה חצי קוטג&#x27; קו ראשון לוואדי ירוק מכל החלונות . 
+הדירה ממוזגת כולה , יש מנגל גז במרפסת . 
+דירה עם הרגשה פרטית ללא תמונות וכד&#x27;
+ יש בתי כנסת , מקווה ,נינגה, פארק משחקים גדול במרחק שתי דקות מהדירה . 
+לפרטים :0527608574 052-760-8574 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">25.5.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">דירת נופש מהממת לשבתות וחגים ובין הזמנים בגבעת זאב מול נוף עוצר נשימה אויר הרים צלול, מקום שקט ופסטורלי,
+דירה חדשה ומשופצת כולה . כניסה פרטית ללא מדרגות . רחוב של וילות וקוטג&#x27;ים הדירה חצי קוטג&#x27; קו ראשון לוואדי ירוק מכל החלונות . 
+הדירה ממוזגת כולה , יש מנגל גז במרפסת . 
+דירה עם הרגשה פרטית ללא תמונות וכד&#x27;
+ יש בתי כנסת , מקווה ,נינגה, פארק משחקים גדול במרחק שתי דקות מהדירה . 
+לפרטים :0527608574</div>
+  <div class="foot"><span class="phone">052-760-8574</span><a class="call" href="tel:+972527608574">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה לשבועות
+יחידה ברחוב אתרוג 99
+קומת כניסה
+סלון מטבח וחדר
+2 מיטות
+0527137180 052-713-7180 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">20.5.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לשבועות
+יחידה ברחוב אתרוג 99
+קומת כניסה
+סלון מטבח וחדר
+2 מיטות
+0527137180</div>
+  <div class="foot"><span class="phone">052-713-7180</span><a class="call" href="tel:+972527137180">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה לשבועות
+ דירה מפוארת ומושקעת ברמה גבוהה במיוחד
+📍 בפרויקט כנריקה, גבעת זאב
+
+🛋️ מרוהטת קומפלט – נוחות מקסימלית!
+🛏️ 6 מיטות
+🛌 2 מזרונים + מיטת תינוק 👶
+🍽️ כולל פלטה ומיחם לשבת 🔥
+🌟 אווירה יוקרתית, נעימה ומפנקת – מושלם לחג!
+לפרטים וואטסאפ בלבד:
+☎️ +972 58-653-6538 058-653-6538 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">20.5.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לשבועות
+ דירה מפוארת ומושקעת ברמה גבוהה במיוחד
+📍 בפרויקט כנריקה, גבעת זאב
+
+🛋️ מרוהטת קומפלט – נוחות מקסימלית!
+🛏️ 6 מיטות
+🛌 2 מזרונים + מיטת תינוק 👶
+🍽️ כולל פלטה ומיחם לשבת 🔥
+🌟 אווירה יוקרתית, נעימה ומפנקת – מושלם לחג!
+לפרטים וואטסאפ בלבד:
+☎️ +972 58-653-6538</div>
+  <div class="foot"><span class="phone">058-653-6538</span><a class="call" href="tel:+972586536538">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה ברח&#x27; נחליאלי דירה חדשה 3 חדרים 6 מיטות ומזרונים לפרטים 054-2010885 054-201-0885 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">20.5.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה ברח&#x27; נחליאלי דירה חדשה 3 חדרים 6 מיטות ומזרונים לפרטים 054-2010885</div>
+  <div class="foot"><span class="phone">054-201-0885</span><a class="call" href="tel:+972542010885">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="🏡 להשכרה לשבועות 🏡
+
+✨ דירה מפוארת ומושקעת ברמה גבוהה במיוחד
+📍 בפרויקט כנריקה, גבעת זאב
+
+🛋️ מרוהטת קומפלט – נוחות מקסימלית!
+🛏️ 6 מיטות
+🛌 2 מזרונים + מיטת תינוק 👶
+🍽️ כולל פלטה ומיחם לשבת 🔥
+🌟 אווירה יוקרתית, נעימה ומפנקת – מושלם לחג!
+
+📲 לפרטים והזמנות – וואטסאפ בלבד:
+☎️ +972 58-653-6538 058-653-6538 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">17.5.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">🏡 להשכרה לשבועות 🏡
+
+✨ דירה מפוארת ומושקעת ברמה גבוהה במיוחד
+📍 בפרויקט כנריקה, גבעת זאב
+
+🛋️ מרוהטת קומפלט – נוחות מקסימלית!
+🛏️ 6 מיטות
+🛌 2 מזרונים + מיטת תינוק 👶
+🍽️ כולל פלטה ומיחם לשבת 🔥
+🌟 אווירה יוקרתית, נעימה ומפנקת – מושלם לחג!
+
+📲 לפרטים והזמנות – וואטסאפ בלבד:
+☎️ +972 58-653-6538</div>
+  <div class="foot"><span class="phone">058-653-6538</span><a class="call" href="tel:+972586536538">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="לכל השנה -שבועות נתפס.
+דירת נופש מהממת בגבעת זאב מול נוף עוצר נשימה אויר הרים צלול, מקום שקט ופסטורלי,
+דירה חדשה ומשופצת כולה . כניסה פרטית ללא מדרגות . רחוב של וילות וקוטג&#x27;ים הדירה חצי קוטג&#x27; קו ראשון לוואדי ירוק מהחלונות .
+יש בתי כנסת , מקווה , פארק משחקים גדול , נינגה ,במרחק שתי דקות מהדירה .
+יש מנגל גז במרפסת , משחקים.  אקווריום יפה ואופציה ל 2 אוגרים .
+לפרטים 0527608574 052-760-8574 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">14.5.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">לכל השנה -שבועות נתפס.
+דירת נופש מהממת בגבעת זאב מול נוף עוצר נשימה אויר הרים צלול, מקום שקט ופסטורלי,
+דירה חדשה ומשופצת כולה . כניסה פרטית ללא מדרגות . רחוב של וילות וקוטג&#x27;ים הדירה חצי קוטג&#x27; קו ראשון לוואדי ירוק מהחלונות .
+יש בתי כנסת , מקווה , פארק משחקים גדול , נינגה ,במרחק שתי דקות מהדירה .
+יש מנגל גז במרפסת , משחקים.  אקווריום יפה ואופציה ל 2 אוגרים .
+לפרטים 0527608574</div>
+  <div class="foot"><span class="phone">052-760-8574</span><a class="call" href="tel:+972527608574">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה לשבועות
+
+7-10 דק&#x27; מהאוהל
+
+כיתות מרווחות וממוזגות עם מזרונים בתוך ת&quot;ת 
+
+מחיר תקנון
+
+אליהו 0548493202 054-849-3202 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">13.5.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לשבועות
+
+7-10 דק&#x27; מהאוהל
+
+כיתות מרווחות וממוזגות עם מזרונים בתוך ת&quot;ת 
+
+מחיר תקנון
+
+אליהו 0548493202</div>
+  <div class="foot"><span class="phone">054-849-3202</span><a class="call" href="tel:+972548493202">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="1" data-text="להשכרה לשבועות
+דירה חדשה, מרווחת נקיה ונעימה ברחוב הברוש.
+4 מיטות + מזרונים 
+מזגן פלטה מיחם... 053-334-2718 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">13.5.2026</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה לשבועות
+דירה חדשה, מרווחת נקיה ונעימה ברחוב הברוש.
+4 מיטות + מזרונים 
+מזגן פלטה מיחם...</div>
+  <div class="foot"><span class="phone">053-334-2718</span><a class="call" href="tel:+972533342718">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה *לשבועות* 🏠 דירת 3 חדרים
+ ברח&#x27; מבוא הגפן 
+-15- 10 דקות הליכה
+6 מיטות 
+3 מזרונים 
+אפשרות ללול  
+פלטה חשמלית ושעון שבת 
+מזגנים בכל הדירה 
+2 חדרי שרותים
+וחצר ענקית 
+ 
+דירה נקייה ומסודרת 
+
+פרטים נוספים בפרטי 
+0528802519 052-880-2519 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">13.5.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה *לשבועות* 🏠 דירת 3 חדרים
+ ברח&#x27; מבוא הגפן 
+-15- 10 דקות הליכה
+6 מיטות 
+3 מזרונים 
+אפשרות ללול  
+פלטה חשמלית ושעון שבת 
+מזגנים בכל הדירה 
+2 חדרי שרותים
+וחצר ענקית 
+ 
+דירה נקייה ומסודרת 
+
+פרטים נוספים בפרטי 
+0528802519</div>
+  <div class="foot"><span class="phone">052-880-2519</span><a class="call" href="tel:+972528802519">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה לחג.
+דירת גן ברחוב הברוש נקייה יפה ומסודרת,כניסה ללא מעליות,מיזוג בכל הבית,שני מקררים,יש מספיק  שולחנות וכסאות שני שירותים ואמבטיות סדר גודל של 15 איש
+חצר ענקית של 200 מטר עם טרמפולינה פינת ישיבה ערסל מטבח משחק לילדים וכדורים כמובן שפלטה גדולה ומיחם במקום. 054-309-0391 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">13.5.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לחג.
+דירת גן ברחוב הברוש נקייה יפה ומסודרת,כניסה ללא מעליות,מיזוג בכל הבית,שני מקררים,יש מספיק  שולחנות וכסאות שני שירותים ואמבטיות סדר גודל של 15 איש
+חצר ענקית של 200 מטר עם טרמפולינה פינת ישיבה ערסל מטבח משחק לילדים וכדורים כמובן שפלטה גדולה ומיחם במקום.</div>
+  <div class="foot"><span class="phone">054-309-0391</span><a class="call" href="tel:+972543090391">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="*דירה פנויה לשבועות*
+כתובת : המכבים  54
+מספר חדרים בדירה : 3 
+מספר מיטות: 4 קבועות פלוס 2 מתקפלות 
+אפשר להוסיף מזרנים
+מחיר לפי תקנון 
+טלפון : 0552950841 055-295-0841 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">11.5.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">*דירה פנויה לשבועות*
+כתובת : המכבים  54
+מספר חדרים בדירה : 3 
+מספר מיטות: 4 קבועות פלוס 2 מתקפלות 
+אפשר להוסיף מזרנים
+מחיר לפי תקנון 
+טלפון : 0552950841</div>
+  <div class="foot"><span class="phone">055-295-0841</span><a class="call" href="tel:+972552950841">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה לחג השבועות.
+דירת 3 חדרים משופצת במבוא הגפן
+2 שרותים 
+מזגן בכל הבית 
+חצר ענקית
+6 מיטות ו3 מזרונים אפשרות ללול.
+
+יש פלטה חשמלית ושעון שבת
+תקנון
+לפרטים052-8802519  השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">11.5.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לחג השבועות.
+דירת 3 חדרים משופצת במבוא הגפן
+2 שרותים 
+מזגן בכל הבית 
+חצר ענקית
+6 מיטות ו3 מזרונים אפשרות ללול.
+
+יש פלטה חשמלית ושעון שבת
+תקנון
+לפרטים052-8802519</div>
+  <div class="foot"><span class="phone">—</span></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה לחג שבועות
+ברחוב מבוא השמש 
+כ10 דקות הליכה 
+דירה בת 3 חדרים בית נקי מרווח 
+4 מיטות 
+4 מזרונים 
+לול אחד 
+ועוד ספה שנפתחת למיטות 
+מיזוג +שירותים אחד + אמבטיה אחד
+2 פלטות 
+מים כשר גם קר גם חם 
+לפרטים נוספים 
+0548261211 
+מחיר מחירון 054-826-1211 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">10.5.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לחג שבועות
+ברחוב מבוא השמש 
+כ10 דקות הליכה 
+דירה בת 3 חדרים בית נקי מרווח 
+4 מיטות 
+4 מזרונים 
+לול אחד 
+ועוד ספה שנפתחת למיטות 
+מיזוג +שירותים אחד + אמבטיה אחד
+2 פלטות 
+מים כשר גם קר גם חם 
+לפרטים נוספים 
+0548261211 
+מחיר מחירון</div>
+  <div class="foot"><span class="phone">054-826-1211</span><a class="call" href="tel:+972548261211">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="להשכרה לחג השבועות
+ברחוב המכבים 2 חדרים עם:
+3 מיטות 
+3 מזרונים
+לול
+פלטה
+מייחם
+מזגן
+לפרטים נוספים
+0555633635 055-563-3635 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">10.5.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לחג השבועות
+ברחוב המכבים 2 חדרים עם:
+3 מיטות 
+3 מזרונים
+לול
+פלטה
+מייחם
+מזגן
+לפרטים נוספים
+0555633635</div>
+  <div class="foot"><span class="phone">055-563-3635</span><a class="call" href="tel:+972555633635">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="1" data-text="להשכרה לחג השבועות
+דירה משופצת נקיה עם מרפסת ממוזגת 
+3 חדרים- 2 חדרי שינה 
+15-20 דק הליכה מקרלין 054-957-7137 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">10.5.2026</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה לחג השבועות
+דירה משופצת נקיה עם מרפסת ממוזגת 
+3 חדרים- 2 חדרי שינה 
+15-20 דק הליכה מקרלין</div>
+  <div class="foot"><span class="phone">054-957-7137</span><a class="call" href="tel:+972549577137">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="1" data-text="להשכרה לחג השבועות ברחוב מבוא השמש דירה 2 חדרי שינה
+פלוס סלון גדול
+2 מיטות 
+מזרונים כמה שצריך וגם לול
+2 שרותים 
+מקלחת
+לפרטים בפרטי &lt;ההודעה נערכה&gt; 052-667-5813 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">10.5.2026</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה לחג השבועות ברחוב מבוא השמש דירה 2 חדרי שינה
+פלוס סלון גדול
+2 מיטות 
+מזרונים כמה שצריך וגם לול
+2 שרותים 
+מקלחת
+לפרטים בפרטי &lt;ההודעה נערכה&gt;</div>
+  <div class="foot"><span class="phone">052-667-5813</span><a class="call" href="tel:+972526675813">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="שלום,
+יש לי בית פרטי 6 חדרים להשכיר.
+למי שמעוניין,נא ליצור איתי קשר 054-571-5246 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">10.5.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">שלום,
+יש לי בית פרטי 6 חדרים להשכיר.
+למי שמעוניין,נא ליצור איתי קשר</div>
+  <div class="foot"><span class="phone">054-571-5246</span><a class="call" href="tel:+972545715246">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="1" data-text="להשכרה דירת 6 חדרים
+מטופחת,נקייה ויפה🏫
+בת 2 קומות 
+רחוב נחליאלי
+11 מיטות
+משחקים סופרים לילדים בשפע על טהרת הקודש 📚🎳🎲🎯
+מחיר מחירון
+0509008984 050-900-8984 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">10.5.2026</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה דירת 6 חדרים
+מטופחת,נקייה ויפה🏫
+בת 2 קומות 
+רחוב נחליאלי
+11 מיטות
+משחקים סופרים לילדים בשפע על טהרת הקודש 📚🎳🎲🎯
+מחיר מחירון
+0509008984</div>
+  <div class="foot"><span class="phone">050-900-8984</span><a class="call" href="tel:+972509008984">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="1" data-text="להשכרה דירת 4 חדרים יפה ונקיה בברוש  לשבועות 052-811-2009 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">9.5.2026</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה דירת 4 חדרים יפה ונקיה בברוש  לשבועות</div>
+  <div class="foot"><span class="phone">052-811-2009</span><a class="call" href="tel:+972528112009">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="1" data-text="להשכרה דירת 4 חדרים יפה ונקיה פנויה לכל פסח בברוש פרטים אצלי.. 052-811-2009 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">30.3.2026</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה דירת 4 חדרים יפה ונקיה פנויה לכל פסח בברוש פרטים אצלי..</div>
+  <div class="foot"><span class="phone">052-811-2009</span><a class="call" href="tel:+972528112009">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2026" data-broker="0" data-text="*נוף הגבעה 🏡*
+באתרוג 50 (ע&quot;י פארק הגאי)
+פנוי *לפורים* הבעל&quot;ט 
+
+
+1) דירה 3 חדרים 8 מיטות 
+2)דירה 5 חדרים 15 מיטות
+אפשר להוסיף מזרונים
+
+
+✅ סלון ומטבח מותאמים
+
+✅ מיני בר מיחם ופלטה
+
+✅ כולל מצעים ומגבות
+
+✅ נקיון על חשבון המקום
+
+
+✨לאנשים שמחפשים מקום ברמת אירוח✨
+
+*לפרטים נוספים לחצו על הקישור https://wa.me/message/dc7tkaslrxooh1 052-484-3500 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">23.2.2026</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">*נוף הגבעה 🏡*
+באתרוג 50 (ע&quot;י פארק הגאי)
+פנוי *לפורים* הבעל&quot;ט 
+
+
+1) דירה 3 חדרים 8 מיטות 
+2)דירה 5 חדרים 15 מיטות
+אפשר להוסיף מזרונים
+
+
+✅ סלון ומטבח מותאמים
+
+✅ מיני בר מיחם ופלטה
+
+✅ כולל מצעים ומגבות
+
+✅ נקיון על חשבון המקום
+
+
+✨לאנשים שמחפשים מקום ברמת אירוח✨
+
+*לפרטים נוספים לחצו על הקישור https://wa.me/message/DC7TKASLRXOOH1</div>
+  <div class="foot"><span class="phone">052-484-3500</span><a class="call" href="tel:+972524843500">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="להשכרה.
+המכבים(בלי הפיח)
+שני חדרים
+מושקעת מאוד. חלונות חשמלי גדולייים. 
+מוארת מאוד 
+קרקע. 
+המווון הניה 
+דקות מ-בתי כנסת/מרכז/קופת חולים:סופר. 
+ומביציה/כניסה לישוב
+050-8587686 050-858-7686 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">17.12.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה.
+המכבים(בלי הפיח)
+שני חדרים
+מושקעת מאוד. חלונות חשמלי גדולייים. 
+מוארת מאוד 
+קרקע. 
+המווון הניה 
+דקות מ-בתי כנסת/מרכז/קופת חולים:סופר. 
+ומביציה/כניסה לישוב
+050-8587686</div>
+  <div class="foot"><span class="phone">050-858-7686</span><a class="call" href="tel:+972508587686">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה לשבת חנוכה דירה משופצת ברמה גבוהה
+ברחוב המכבים
+ניתן לפנות למספר 0555633635 055-563-3635 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">17.12.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לשבת חנוכה דירה משופצת ברמה גבוהה
+ברחוב המכבים
+ניתן לפנות למספר 0555633635</div>
+  <div class="foot"><span class="phone">055-563-3635</span><a class="call" href="tel:+972555633635">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="קןטג&#x27; להשכרה לחג שמחת תורה 2 קומות 3 חדרי שינה רחוב שבט בנימין
+0548165779 054-816-5779 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">13.10.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">קןטג&#x27; להשכרה לחג שמחת תורה 2 קומות 3 חדרי שינה רחוב שבט בנימין
+0548165779</div>
+  <div class="foot"><span class="phone">054-816-5779</span><a class="call" href="tel:+972548165779">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="*להשכרה לשמחת תורה🏡*
+דירה מפוארת ומושקעת *ברמה גבוהה במיוחד* בפרויקט כנריקה בגבעת זאב ✨  
+מרוהטת קומפלט, נוחות מקסימלית!  
+6 מיטות 
+כולל פלטה ומיחם לשבת 🍽️🔥  
+אווירה יוקרתית ונעימה – מושלם לחג!  
+*ללא ילדים קטנים, תודה על ההבנה* 🙏  
+לפרטים והזמנות – וואטספ בלבד:  
+📱 +972 53-451-5782 053-451-5782 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">10.10.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">*להשכרה לשמחת תורה🏡*
+דירה מפוארת ומושקעת *ברמה גבוהה במיוחד* בפרויקט כנריקה בגבעת זאב ✨  
+מרוהטת קומפלט, נוחות מקסימלית!  
+6 מיטות 
+כולל פלטה ומיחם לשבת 🍽️🔥  
+אווירה יוקרתית ונעימה – מושלם לחג!  
+*ללא ילדים קטנים, תודה על ההבנה* 🙏  
+לפרטים והזמנות – וואטספ בלבד:  
+📱 +972 53-451-5782</div>
+  <div class="foot"><span class="phone">053-451-5782</span><a class="call" href="tel:+972534515782">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="להשכרה בשמחת תורה יחידת דיור  בערך 70 מטר חדר שינה פלוס מזרונים בסלון ברחוב המכבים 17/1 052-667-5813 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">8.10.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה בשמחת תורה יחידת דיור  בערך 70 מטר חדר שינה פלוס מזרונים בסלון ברחוב המכבים 17/1</div>
+  <div class="foot"><span class="phone">052-667-5813</span><a class="call" href="tel:+972526675813">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה לשמחת תורה דירה במבוא השמש.
+4 חדרים.
+דירה מתאימה יותר לשינה...
+פחות ממחיר תקנון 052-773-6000 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">5.10.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לשמחת תורה דירה במבוא השמש.
+4 חדרים.
+דירה מתאימה יותר לשינה...
+פחות ממחיר תקנון</div>
+  <div class="foot"><span class="phone">052-773-6000</span><a class="call" href="tel:+972527736000">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה לשמחת תורה
+יחידת דיור נקיה מוארת ומאווררת.
+4 מיטות, מזגן, מטבח,מקרר, אופציה לפלטה ומיחם. חצר גדולה. שולחן וכסאות לפי דרישה.  
+מרחק 10 דק&#x27; לקרלין. 052-280-1077 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">4.10.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לשמחת תורה
+יחידת דיור נקיה מוארת ומאווררת.
+4 מיטות, מזגן, מטבח,מקרר, אופציה לפלטה ומיחם. חצר גדולה. שולחן וכסאות לפי דרישה.  
+מרחק 10 דק&#x27; לקרלין.</div>
+  <div class="foot"><span class="phone">052-280-1077</span><a class="call" href="tel:+972522801077">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה דירה מהממת וחדשה בת 4 חדרים ברחוב האיילות 11 - גבעת זאב לשבוע של סוכות או לחלק מהימים
+(יש סוכה)
+לפרטים נוספים בפרטי
+0585448223 058-544-8223 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">3.10.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה דירה מהממת וחדשה בת 4 חדרים ברחוב האיילות 11 - גבעת זאב לשבוע של סוכות או לחלק מהימים
+(יש סוכה)
+לפרטים נוספים בפרטי
+0585448223</div>
+  <div class="foot"><span class="phone">058-544-8223</span><a class="call" href="tel:+972585448223">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה לשמחת תורה
+דירה נקייה יפהייפיה 
+דופלקס 2 חדרי שינה מטבח וסלון גדול עם חצר.
+6 מיטות עם אופציה למזרונים לפי הצורך. 18 דק הליכה מביהכנ&quot;ס קרלין.  0524267040 052-426-7040 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">3.10.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לשמחת תורה
+דירה נקייה יפהייפיה 
+דופלקס 2 חדרי שינה מטבח וסלון גדול עם חצר.
+6 מיטות עם אופציה למזרונים לפי הצורך. 18 דק הליכה מביהכנ&quot;ס קרלין.  0524267040</div>
+  <div class="foot"><span class="phone">052-426-7040</span><a class="call" href="tel:+972524267040">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="להשכרה לחגים
+כיפור
+סוכות
+שמחת תורה. 
+2 דירות:
+קוטג׳ 6 חדרים
+גינה גדולה
+7 דקות. המכבים 18
+תקנון. 
+🎋🎋🎋🎋🎋🎋🎋
+דירת 2 חדרים
+7 דקות. המכבים 18
+תקנון
+לכל החגים
+050-8587686 050-858-7686 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">30.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה לחגים
+כיפור
+סוכות
+שמחת תורה. 
+2 דירות:
+קוטג׳ 6 חדרים
+גינה גדולה
+7 דקות. המכבים 18
+תקנון. 
+🎋🎋🎋🎋🎋🎋🎋
+דירת 2 חדרים
+7 דקות. המכבים 18
+תקנון
+לכל החגים
+050-8587686</div>
+  <div class="foot"><span class="phone">050-858-7686</span><a class="call" href="tel:+972508587686">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="להשכרה לשמחת תורה דירת 4 חדרים בברוש יפה ונקיה מסודרת כולל הכל 7 מיטות ומזרונים 052-811-2009 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">29.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה לשמחת תורה דירת 4 חדרים בברוש יפה ונקיה מסודרת כולל הכל 7 מיטות ומזרונים</div>
+  <div class="foot"><span class="phone">052-811-2009</span><a class="call" href="tel:+972528112009">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="להשכרה לשמחת תורה בשכונת נווה מנחם רחוב נחליאלי
+דירת 5.5 חדרים🏠
+קומה 2
+דו קומתית יפה,נקייה ונעימה 
+11 מיטות🛌
+אופציה למיזרונים
+מקרר פיקוד שבת
+פלטה גדולה
+בר מים מהדרין⛲
+מחיר תקנון
+לפרטים ותמונות 0509008984 050-900-8984 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">29.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה לשמחת תורה בשכונת נווה מנחם רחוב נחליאלי
+דירת 5.5 חדרים🏠
+קומה 2
+דו קומתית יפה,נקייה ונעימה 
+11 מיטות🛌
+אופציה למיזרונים
+מקרר פיקוד שבת
+פלטה גדולה
+בר מים מהדרין⛲
+מחיר תקנון
+לפרטים ותמונות 0509008984</div>
+  <div class="foot"><span class="phone">050-900-8984</span><a class="call" href="tel:+972509008984">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="להשכרה לשמחת תורה דירה חדשה מאווררת נקייה עם מרפסת
+3 חדרים 4 מיטות 
+עם אופציה למזרונים 
+ברחוב התאנה 054-957-7137 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">29.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה לשמחת תורה דירה חדשה מאווררת נקייה עם מרפסת
+3 חדרים 4 מיטות 
+עם אופציה למזרונים 
+ברחוב התאנה</div>
+  <div class="foot"><span class="phone">054-957-7137</span><a class="call" href="tel:+972549577137">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="להשכרה בשמחת תורה יחידת דיור גדולה  בערך 70 מטר חדר שינה פלוס מזרונים בסלון ברחוב המכבים 17/1 052-667-5813 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">29.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה בשמחת תורה יחידת דיור גדולה  בערך 70 מטר חדר שינה פלוס מזרונים בסלון ברחוב המכבים 17/1</div>
+  <div class="foot"><span class="phone">052-667-5813</span><a class="call" href="tel:+972526675813">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="✨ להשכרה לשמחת תורה ✨
+
+דירה מרווחת ומוארת עם 2 חדרי שינה + סלון גדול ונעים:
+🛏 חדר שינה 1 – מיטה זוגית רחבה ונוחה
+🛏 חדר שינה 2 – 2 מיטות קומותיים, מתאים לילדים/אורחים
+🛋 סלון מרווח עם ספה גדולה ומפנקת
+🍳 מטבח מאובזר, מוכן לאירוח
+
+מיקום מרכזי, קרוב לבתי כנסת ולתחבורה ציבורית.
+מתאים במיוחד למשפחות המבקשות לשהות באווירה נעימה ונוחה בחג.
+
+📞 לפרטים והזמנות: 0586272937 058-627-2937 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">28.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">✨ להשכרה לשמחת תורה ✨
+
+דירה מרווחת ומוארת עם 2 חדרי שינה + סלון גדול ונעים:
+🛏 חדר שינה 1 – מיטה זוגית רחבה ונוחה
+🛏 חדר שינה 2 – 2 מיטות קומותיים, מתאים לילדים/אורחים
+🛋 סלון מרווח עם ספה גדולה ומפנקת
+🍳 מטבח מאובזר, מוכן לאירוח
+
+מיקום מרכזי, קרוב לבתי כנסת ולתחבורה ציבורית.
+מתאים במיוחד למשפחות המבקשות לשהות באווירה נעימה ונוחה בחג.
+
+📞 לפרטים והזמנות: 0586272937</div>
+  <div class="foot"><span class="phone">058-627-2937</span><a class="call" href="tel:+972586272937">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="דירה ברחוב המכבים 17/1 להשכרה ליום כיפור שמחת תורה במחיר התקנון 15 דקות הליכה דירה נוחה יפה חדר שינה מיטה יהודית פלוס סלון גדול (יש 2 מזרונים בסלון) מזגנים וכו למעוניינים ליצור קשר בפרטי &lt;ההודעה נערכה&gt; 052-667-5813 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">28.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">דירה ברחוב המכבים 17/1 להשכרה ליום כיפור שמחת תורה במחיר התקנון 15 דקות הליכה דירה נוחה יפה חדר שינה מיטה יהודית פלוס סלון גדול (יש 2 מזרונים בסלון) מזגנים וכו למעוניינים ליצור קשר בפרטי &lt;ההודעה נערכה&gt;</div>
+  <div class="foot"><span class="phone">052-667-5813</span><a class="call" href="tel:+972526675813">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה דירת 3 חדרים
+5 מיטות 3 מזרנים אפשר להביא עוד
+ברחוב מבוא השמש 5
+דירה נוחה מוזגגת משופצת
+אפשר לכיפור/סוכות יש סוכה/שמחת תורה
+מחירון
+0533404890 053-340-4890 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">25.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה דירת 3 חדרים
+5 מיטות 3 מזרנים אפשר להביא עוד
+ברחוב מבוא השמש 5
+דירה נוחה מוזגגת משופצת
+אפשר לכיפור/סוכות יש סוכה/שמחת תורה
+מחירון
+0533404890</div>
+  <div class="foot"><span class="phone">053-340-4890</span><a class="call" href="tel:+972533404890">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה לכל ימי חג הסוכות ושמחת תורה
+דירה 5חדרים  נקיה מסודרת עם פלטה לשבת ומכשיר נועם שבת למים חמים וקרים לשבת 
+11 מיטות ו-אפשרות ל5 מזרונים  כולל סוכה  מוכנה  כולל חצר ומרפסות ברחוב מצפה  לפרטים בפרטי 050-8428325 050-842-8325 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">25.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לכל ימי חג הסוכות ושמחת תורה
+דירה 5חדרים  נקיה מסודרת עם פלטה לשבת ומכשיר נועם שבת למים חמים וקרים לשבת 
+11 מיטות ו-אפשרות ל5 מזרונים  כולל סוכה  מוכנה  כולל חצר ומרפסות ברחוב מצפה  לפרטים בפרטי 050-8428325</div>
+  <div class="foot"><span class="phone">050-842-8325</span><a class="call" href="tel:+972508428325">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="משכירים בשמחת תורה ברחוב הברוש (קומה 8 מעלית שבת)
+דירה יפה, מרווחת ונקייה עם מרפסת גדולה. פלטה, מיחם ומזגן מיני מרכזי 053-334-2718 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">25.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">משכירים בשמחת תורה ברחוב הברוש (קומה 8 מעלית שבת)
+דירה יפה, מרווחת ונקייה עם מרפסת גדולה. פלטה, מיחם ומזגן מיני מרכזי</div>
+  <div class="foot"><span class="phone">053-334-2718</span><a class="call" href="tel:+972533342718">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="*🏡 להשכרה לשמחת תורה – דירה פצצה בגבעת זאב! 🕍*
+*למשפחות איכותיות בלבד*
+
+*✨ דירה ברמה גבוהה במיוחד – מושקעת, משופצת מהיסוד ונקייה ברמה גבוהה ביותר!*  
+*🛏️ 4 מיטות + 6 מזרנים נוספים* – מתאימה בול לאירוח חגיגי ונעים  
+*🔥 פלטה לשבת + בר מים כשר למהדרין*  
+*📍 מיקום: רחוב יהושע בן נון, גבעת זאב*
+
+✅ אווירה רגועה ונעימה  
+✅ נוחות מקסימלית  
+
+📲 *לפרטים והזמנות – רק בוואטספ:*  
+*053-451-5782* 053-451-5782 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">25.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">*🏡 להשכרה לשמחת תורה – דירה פצצה בגבעת זאב! 🕍*
+*למשפחות איכותיות בלבד*
+
+*✨ דירה ברמה גבוהה במיוחד – מושקעת, משופצת מהיסוד ונקייה ברמה גבוהה ביותר!*  
+*🛏️ 4 מיטות + 6 מזרנים נוספים* – מתאימה בול לאירוח חגיגי ונעים  
+*🔥 פלטה לשבת + בר מים כשר למהדרין*  
+*📍 מיקום: רחוב יהושע בן נון, גבעת זאב*
+
+✅ אווירה רגועה ונעימה  
+✅ נוחות מקסימלית  
+
+📲 *לפרטים והזמנות – רק בוואטספ:*  
+*053-451-5782*</div>
+  <div class="foot"><span class="phone">053-451-5782</span><a class="call" href="tel:+972534515782">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="להשכרה לשמחת תורה דירת 4 חדרים בברוש יפה ונקיה 7 מיטות ומזרונים 052-811-2009 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">25.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה לשמחת תורה דירת 4 חדרים בברוש יפה ונקיה 7 מיטות ומזרונים</div>
+  <div class="foot"><span class="phone">052-811-2009</span><a class="call" href="tel:+972528112009">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="דירות להשכרה ל *שבתות*🏡
+ולימים בודדים
+שבת חתן/  שבת חברות ...וכו&#x27;
+
+
+*דירה ראשונה*
+🏡בגבעת הבננה.
+בערך 9 מיטות.
+2 מזרונים
+איבזור מלא:
+כולל מכשיר מים מנרלים קר וחם גם בשבת.
+נקיה . מאוד נעימה .  מזגן בכל חדר.  
+ו  : 2 מרפסות לנוף  מדהים.
+
+
+*דירה שניה:*
+🏡אגן האיילות בצמוד לגבעת הבננה.
+עד 4 מיטות.
+איבזור מלא.
+מזגן, נקיה ונעימה מאוד.
+מרפסת לנוף מדהים.
+
+מחיר לפי תקנון
+
+
+0532400238 🌷🌷 053-240-0238 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">21.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">דירות להשכרה ל *שבתות*🏡
+ולימים בודדים
+שבת חתן/  שבת חברות ...וכו&#x27;
+
+
+*דירה ראשונה*
+🏡בגבעת הבננה.
+בערך 9 מיטות.
+2 מזרונים
+איבזור מלא:
+כולל מכשיר מים מנרלים קר וחם גם בשבת.
+נקיה . מאוד נעימה .  מזגן בכל חדר.  
+ו  : 2 מרפסות לנוף  מדהים.
+
+
+*דירה שניה:*
+🏡אגן האיילות בצמוד לגבעת הבננה.
+עד 4 מיטות.
+איבזור מלא.
+מזגן, נקיה ונעימה מאוד.
+מרפסת לנוף מדהים.
+
+מחיר לפי תקנון
+
+
+0532400238 🌷🌷</div>
+  <div class="foot"><span class="phone">053-240-0238</span><a class="call" href="tel:+972532400238">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="תפרסם ככה:
+דירה להשכרה באגן האיילות לראש השנה
+ברחוב הכפיר (צמוד לבית כנסת דז&#x27;יקוב)
+דירת 3 חדרים ממוזגת נקייה ומרווחת עם מרפסות
+כולל שתי מיטות הורים עם מזרונים נוחים, מיטת תינוק ו 4 מזרונים למבוגרים (יש מקום למזרונים נוספים, אם תרצו להביא)
+מיחם, פלטה מקרר עם מצב שבת מהודר
+מצבר שבת למעוניינים
+ 
+800 שח לימי החג.
+אפשרות להוסיף את יום חמישי בתשלום נוסף 
+לפרטים 053-3113682 053-311-3682 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">21.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">תפרסם ככה:
+דירה להשכרה באגן האיילות לראש השנה
+ברחוב הכפיר (צמוד לבית כנסת דז&#x27;יקוב)
+דירת 3 חדרים ממוזגת נקייה ומרווחת עם מרפסות
+כולל שתי מיטות הורים עם מזרונים נוחים, מיטת תינוק ו 4 מזרונים למבוגרים (יש מקום למזרונים נוספים, אם תרצו להביא)
+מיחם, פלטה מקרר עם מצב שבת מהודר
+מצבר שבת למעוניינים
+ 
+800 שח לימי החג.
+אפשרות להוסיף את יום חמישי בתשלום נוסף 
+לפרטים 053-3113682</div>
+  <div class="foot"><span class="phone">053-311-3682</span><a class="call" href="tel:+972533113682">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="*להשכרה לראש השנה 🕊️🏡*
+דירה מפוארת ומושקעת *דירה נדירה ברמה גבוהה במיוחד* בפרויקט כנריקה בגבעת זאב ✨  
+מרוהטת קומפלט, נוחות מקסימלית!  
+6 מיטות + 4 מזרונים  
+כולל פלטה ומיחם לשבת 🍽️🔥  
+אווירה יוקרתית ונעימה – מושלם לחג!  
+*ללא ילדים קטנים, תודה על ההבנה* 🙏  
+לפרטים וואטספ בלבד:  
+📱 +972 53-451-5782 &lt;ההודעה נערכה&gt; 053-451-5782 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">21.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">*להשכרה לראש השנה 🕊️🏡*
+דירה מפוארת ומושקעת *דירה נדירה ברמה גבוהה במיוחד* בפרויקט כנריקה בגבעת זאב ✨  
+מרוהטת קומפלט, נוחות מקסימלית!  
+6 מיטות + 4 מזרונים  
+כולל פלטה ומיחם לשבת 🍽️🔥  
+אווירה יוקרתית ונעימה – מושלם לחג!  
+*ללא ילדים קטנים, תודה על ההבנה* 🙏  
+לפרטים וואטספ בלבד:  
+📱 +972 53-451-5782 &lt;ההודעה נערכה&gt;</div>
+  <div class="foot"><span class="phone">053-451-5782</span><a class="call" href="tel:+972534515782">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="דירה ברחוב התאנה 3 חדרים
+חדשה נקייה ומטופחת ממוזגת עם מרפסת 
+20 דק הליכה לקרלין 
+עדיפות רק לשינה 
+פנויה לר״ה 054-957-7137 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">21.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">דירה ברחוב התאנה 3 חדרים
+חדשה נקייה ומטופחת ממוזגת עם מרפסת 
+20 דק הליכה לקרלין 
+עדיפות רק לשינה 
+פנויה לר״ה</div>
+  <div class="foot"><span class="phone">054-957-7137</span><a class="call" href="tel:+972549577137">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="היי
+דירה נקייה מאד ממוזגת מרח הנבל (רמת גבעת זאב קרוב לרח התן הבנתי שיש מישם קיצור) חצי שעה הליכה 2 וחצי חדרים
+2 מיטות פלוס מזרונים 
+בשמחה
+פנוי ראש השנה , שמחת תורה 
+מחיר תקנון &lt;ההודעה נערכה&gt; 054-845-7298 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">20.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">היי
+דירה נקייה מאד ממוזגת מרח הנבל (רמת גבעת זאב קרוב לרח התן הבנתי שיש מישם קיצור) חצי שעה הליכה 2 וחצי חדרים
+2 מיטות פלוס מזרונים 
+בשמחה
+פנוי ראש השנה , שמחת תורה 
+מחיר תקנון &lt;ההודעה נערכה&gt;</div>
+  <div class="foot"><span class="phone">054-845-7298</span><a class="call" href="tel:+972548457298">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="דירה ברחוב התאנה 20 דק הליכה
+3 חדרים 4 מיטות נוחות 
+דירה חדשה נקיה וממוזגת עם מרפסת 
+קומה שניה 
+פנויה ר״ה ושמחת תורה
+עדיפות רק לשינה 054-957-7137 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">20.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">דירה ברחוב התאנה 20 דק הליכה
+3 חדרים 4 מיטות נוחות 
+דירה חדשה נקיה וממוזגת עם מרפסת 
+קומה שניה 
+פנויה ר״ה ושמחת תורה
+עדיפות רק לשינה</div>
+  <div class="foot"><span class="phone">054-957-7137</span><a class="call" href="tel:+972549577137">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="היי דירה בתאנה
+3 חדרים 
+2 חדרי שינה 
+מרווחת נקיה חדשה ממוזגת 
+מרפסת ונוף 
+25 דק הליכה 
+פנויה לר״ה 054-957-7137 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">19.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">היי דירה בתאנה
+3 חדרים 
+2 חדרי שינה 
+מרווחת נקיה חדשה ממוזגת 
+מרפסת ונוף 
+25 דק הליכה 
+פנויה לר״ה</div>
+  <div class="foot"><span class="phone">054-957-7137</span><a class="call" href="tel:+972549577137">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה דירה 4 חדרים בנווה מנחם
+לראש השנה 
+4 מיטות רגילות  
+אפשרות להוסיף מזרון אחד על הריצפה 
+2 מיטות מעבר 
+2 מקומות על הספה
+
+ליותר פרטים 0586376626 &lt;ההודעה נערכה&gt; 058-637-6626 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">18.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה דירה 4 חדרים בנווה מנחם
+לראש השנה 
+4 מיטות רגילות  
+אפשרות להוסיף מזרון אחד על הריצפה 
+2 מיטות מעבר 
+2 מקומות על הספה
+
+ליותר פרטים 0586376626 &lt;ההודעה נערכה&gt;</div>
+  <div class="foot"><span class="phone">058-637-6626</span><a class="call" href="tel:+972586376626">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="היי
+לא מכירה ככ איפה קרלין,
+אם רלונטי למישהו מרח הנבל (רמת גבעת זאב קרוב לרח התן הבנתי שיש מישם קיצור) 2 וחצי חדרים
+2 מיטות פלוס מזרונים 
+בשמחה
+פנוי ראש השנה , יוהכ, סוכות &lt;ההודעה נערכה&gt; 054-845-7298 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">18.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">היי
+לא מכירה ככ איפה קרלין,
+אם רלונטי למישהו מרח הנבל (רמת גבעת זאב קרוב לרח התן הבנתי שיש מישם קיצור) 2 וחצי חדרים
+2 מיטות פלוס מזרונים 
+בשמחה
+פנוי ראש השנה , יוהכ, סוכות &lt;ההודעה נערכה&gt;</div>
+  <div class="foot"><span class="phone">054-845-7298</span><a class="call" href="tel:+972548457298">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="היי יש לי דירה ברחוב התאנה
+3 חדרים 4 מיטות מרווחות 
+דירה חדשה מהממת ממוזגת מאווררת עם מרפסת 
+פנוי לר״ה ושמחת תורה 054-957-7137 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">18.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">היי יש לי דירה ברחוב התאנה
+3 חדרים 4 מיטות מרווחות 
+דירה חדשה מהממת ממוזגת מאווררת עם מרפסת 
+פנוי לר״ה ושמחת תורה</div>
+  <div class="foot"><span class="phone">054-957-7137</span><a class="call" href="tel:+972549577137">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה דירת 4 חדרים לראש השנה
+רחוב הברוש ( צמוד למרכז מסחרי ) 
+3 מיטות בוגר ומיטת ילדים בנוסף מיטת תינוק 
+עם מרפסת ונוף מהמם 
+2 שירותים אמבטיה ומקלחון 
+לפרטים נוספים. 054-2393972 054-239-3972 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">18.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה דירת 4 חדרים לראש השנה
+רחוב הברוש ( צמוד למרכז מסחרי ) 
+3 מיטות בוגר ומיטת ילדים בנוסף מיטת תינוק 
+עם מרפסת ונוף מהמם 
+2 שירותים אמבטיה ומקלחון 
+לפרטים נוספים. 054-2393972</div>
+  <div class="foot"><span class="phone">054-239-3972</span><a class="call" href="tel:+972542393972">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="דירה פנויה לראש השנה 2 חדרי שינה וסלון ממוזגת ברחוב המכבים 52 (13 דק מקרלין) הדירה לא מרוהטת מלבד ספה
+1,900 שח 
+0548165779 054-816-5779 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">18.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">דירה פנויה לראש השנה 2 חדרי שינה וסלון ממוזגת ברחוב המכבים 52 (13 דק מקרלין) הדירה לא מרוהטת מלבד ספה
+1,900 שח 
+0548165779</div>
+  <div class="foot"><span class="phone">054-816-5779</span><a class="call" href="tel:+972548165779">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="דירה פנויה לשבת הקרובה 7 דקות הליכה 052-484-9022 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">18.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">דירה פנויה לשבת הקרובה 7 דקות הליכה</div>
+  <div class="foot"><span class="phone">052-484-9022</span><a class="call" href="tel:+972524849022">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="להשכרה לראש השנה
+6 חדרים 
+פלוס גינה גדולה 
+7 דק הליכה 
+
+******
+להשכרה 2 חדרים לראש השנה 
+גינה
+7 דק הליכה 
+להתקשר למרי גבאי 
+0508587686
+
+***** 
+להתקשר למרי בלבד 
+במספר שמצוין במודעה 050-858-7686 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">17.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה לראש השנה
+6 חדרים 
+פלוס גינה גדולה 
+7 דק הליכה 
+
+******
+להשכרה 2 חדרים לראש השנה 
+גינה
+7 דק הליכה 
+להתקשר למרי גבאי 
+0508587686
+
+***** 
+להתקשר למרי בלבד 
+במספר שמצוין במודעה</div>
+  <div class="foot"><span class="phone">050-858-7686</span><a class="call" href="tel:+972508587686">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="יש לי דירה פנויה לראש השנה ברחוב התאנה 053-343-3433 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">16.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">יש לי דירה פנויה לראש השנה ברחוב התאנה</div>
+  <div class="foot"><span class="phone">053-343-3433</span><a class="call" href="tel:+972533433433">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="דירת 4 חדרים להשכרה בברוש דירה יפה  ונקיה מרווחת 7 מיטות ועוד מזרונים מרפסת יפה לראש השנה 052-811-2009 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">15.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">דירת 4 חדרים להשכרה בברוש דירה יפה  ונקיה מרווחת 7 מיטות ועוד מזרונים מרפסת יפה לראש השנה</div>
+  <div class="foot"><span class="phone">052-811-2009</span><a class="call" href="tel:+972528112009">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="להשכרה לר״ה ושמחת תורה ברחוב התאנה (מרחק של כ20 דק)
+דירת 3 חדרים חדשה ונקיה כוללת 4 מיטות נוחות, ממוזגת, עם נוף ואויר ומרפסת 054-957-7137 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">15.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה לר״ה ושמחת תורה ברחוב התאנה (מרחק של כ20 דק)
+דירת 3 חדרים חדשה ונקיה כוללת 4 מיטות נוחות, ממוזגת, עם נוף ואויר ומרפסת</div>
+  <div class="foot"><span class="phone">054-957-7137</span><a class="call" href="tel:+972549577137">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="שבוע טוב, משכירים דירה לר״ה ברחוב הברוש (קומה 8 מעלית שבת) דירה גדולה עם מרפסת גדולה
+פרטים נוספים בפרטי 053-334-2718 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">14.9.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">שבוע טוב, משכירים דירה לר״ה ברחוב הברוש (קומה 8 מעלית שבת) דירה גדולה עם מרפסת גדולה
+פרטים נוספים בפרטי</div>
+  <div class="foot"><span class="phone">053-334-2718</span><a class="call" href="tel:+972533342718">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה לכל החודש ברחוב הגיא
+
+דירה 5 וחצי חדרים עם חצר - ללא ריהוט כלל, יש מזגנים בכל החדרים 
+
+משבת סליחות עד אחרי שמחת תורה - יש מקום לסוכה
+
+058-7693795 058-769-3795 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">14.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לכל החודש ברחוב הגיא
+
+דירה 5 וחצי חדרים עם חצר - ללא ריהוט כלל, יש מזגנים בכל החדרים 
+
+משבת סליחות עד אחרי שמחת תורה - יש מקום לסוכה
+
+058-7693795</div>
+  <div class="foot"><span class="phone">058-769-3795</span><a class="call" href="tel:+972587693795">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה *לשבת הקרובה*
+דירה עם 2 מיטות + אפשרות למזרנים 
+מאוד קרוב לבית כנסת 
+
+0549438753 &lt;ההודעה נערכה&gt; 054-943-8753 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">14.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה *לשבת הקרובה*
+דירה עם 2 מיטות + אפשרות למזרנים 
+מאוד קרוב לבית כנסת 
+
+0549438753 &lt;ההודעה נערכה&gt;</div>
+  <div class="foot"><span class="phone">054-943-8753</span><a class="call" href="tel:+972549438753">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="דירה משופצת ברחוב קרית יערים, 2 חדרים, 3 מקומות שינה. מזגן בכל חדר כמובן.
+אפשרות להוספת 2 מזרונים.
+פנויה לשבת שלפני ראש השנה,  וכן בראש השנה.
+לפרטים: 0584759812
+0583261710 058-475-9812 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">13.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">דירה משופצת ברחוב קרית יערים, 2 חדרים, 3 מקומות שינה. מזגן בכל חדר כמובן.
+אפשרות להוספת 2 מזרונים.
+פנויה לשבת שלפני ראש השנה,  וכן בראש השנה.
+לפרטים: 0584759812
+0583261710</div>
+  <div class="foot"><span class="phone">058-475-9812</span><a class="call" href="tel:+972584759812">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="יש לי דירה פנויה לשמחת תורה
+שלושה חדרי שינה סגורים 
+7 מיטות מבוגר ו 2 מיטות נוער 054-743-9904 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">11.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">יש לי דירה פנויה לשמחת תורה
+שלושה חדרי שינה סגורים 
+7 מיטות מבוגר ו 2 מיטות נוער</div>
+  <div class="foot"><span class="phone">054-743-9904</span><a class="call" href="tel:+972547439904">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="דירה להשכרה לר&quot;ה מטופחת ונקיה 4 חדרי שינה 10 מיטות בר&#x27;ח התן 1
+לפרטים 0533141966 053-314-1966 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">9.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">דירה להשכרה לר&quot;ה מטופחת ונקיה 4 חדרי שינה 10 מיטות בר&#x27;ח התן 1
+לפרטים 0533141966</div>
+  <div class="foot"><span class="phone">053-314-1966</span><a class="call" href="tel:+972533141966">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="דירה להשכרה
+ 3 חדרי שינה סלון 
+20 דקות הליכה 11 מקום שינה
+ רחוב רקפת מחיר לפי התקנון
+0548740271 054-874-0271 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">9.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">דירה להשכרה
+ 3 חדרי שינה סלון 
+20 דקות הליכה 11 מקום שינה
+ רחוב רקפת מחיר לפי התקנון
+0548740271</div>
+  <div class="foot"><span class="phone">054-874-0271</span><a class="call" href="tel:+972548740271">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="קוטג יפה
+המכבים 66
+ממוזגת כל הדירה
+3 חדרי שינה בקומה למעלה
+סלון ומטבח בקומה למטה
+חצר גדולה מאחורי הדירה
+שש מיטות
+שתי שירותים
+אחד בקומה למטה
+אחד בקומה למעלה 
+4 מזרונים(אפשרות לעוד מזרונים)
+הדירה ממוזגת כולה
+דירה מאדם פדנט מאד
+דירה מאד נקיה
+מחפש אנשים נקיים
+במחיר תקנון 
+במציאות שלוקחים הדירה רק רק עם 4 מזרונים 
+מחיר 2,590
+יש גם ספא גדולה בסלון בעל הדירה לא מסכים שישנו על הספא
+יש פלטה מיחם וכו וכו וכו
+0533167067 053-316-7067 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">9.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">קוטג יפה
+המכבים 66
+ממוזגת כל הדירה
+3 חדרי שינה בקומה למעלה
+סלון ומטבח בקומה למטה
+חצר גדולה מאחורי הדירה
+שש מיטות
+שתי שירותים
+אחד בקומה למטה
+אחד בקומה למעלה 
+4 מזרונים(אפשרות לעוד מזרונים)
+הדירה ממוזגת כולה
+דירה מאדם פדנט מאד
+דירה מאד נקיה
+מחפש אנשים נקיים
+במחיר תקנון 
+במציאות שלוקחים הדירה רק רק עם 4 מזרונים 
+מחיר 2,590
+יש גם ספא גדולה בסלון בעל הדירה לא מסכים שישנו על הספא
+יש פלטה מיחם וכו וכו וכו
+0533167067</div>
+  <div class="foot"><span class="phone">053-316-7067</span><a class="call" href="tel:+972533167067">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה קוטז 5 חדרים כולל חצר ומרפסות  לכל תקופת חג הסוכות 9 מיטות ו5מזרנים
+כולל סוכה פלטה לשבת נועם שבת למים חמים וקרים  הדירה ברחוב מצפה 050-842-8325 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">9.9.2025</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה קוטז 5 חדרים כולל חצר ומרפסות  לכל תקופת חג הסוכות 9 מיטות ו5מזרנים
+כולל סוכה פלטה לשבת נועם שבת למים חמים וקרים  הדירה ברחוב מצפה</div>
+  <div class="foot"><span class="phone">050-842-8325</span><a class="call" href="tel:+972508428325">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="להשכרה לראש השנה  ושמחת תורה; דירת 3 חדרים  ברח&#x27; יהושוע בן נון.
+מיטה יהודית
+מטבח כשר,
+מזגנים חדשים בכל הדירה
+כסאות בשפע.
+10 מזרנים.
+דירה נקייה מאוד 
+5000₪ 025333018 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">8.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה לראש השנה  ושמחת תורה; דירת 3 חדרים  ברח&#x27; יהושוע בן נון.
+מיטה יהודית
+מטבח כשר,
+מזגנים חדשים בכל הדירה
+כסאות בשפע.
+10 מזרנים.
+דירה נקייה מאוד 
+5000₪</div>
+  <div class="foot"><span class="phone">025333018</span><a class="call" href="tel:+97225333018">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה לחגים דירה בנה בתך מהניילונים 8חדרי שנה מזגנים  מקרר ותנור כול הקודם זוכה025715256 052-252-2997 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">8.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span></div>
+  
+  <div class="body">להשכרה לחגים דירה בנה בתך מהניילונים 8חדרי שנה מזגנים  מקרר ותנור כול הקודם זוכה025715256</div>
+  <div class="foot"><span class="phone">052-252-2997</span><a class="call" href="tel:+972522522997">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="✨ להשכרה לחגים ✨
+דירת 5 חדרים + חצר ענקית 200 מ&quot;ר 🌳  
+11 מיטות + ספה ל־2 ילדים 🛏️  
+טרמפולינה, משחקים לילדים, פינת ישיבה, ערסלים ועוד 🎉  
+מזגנים בכל הבית (חוץ משני חדרים – יש מאווררים) ❄️  
+שתי מקררים, פלטה, מיחם ומטבח כשר 🍽️  
+מרחק הליכה כ־7–8 דקות מהאוהל ⛪  
+
+📍 רחוב הברוש  
+✅ בית חדש, נעים ומרווח – מתאים למשפחות גדולות
+---------------------------------
+
+📋 פירוט מלא:  
+- סלון + מטבח + פינת אוכל גדולה  
+- חצר מרווחת מעל 200 מ&quot;ר: טרמפולינה, מטבח משחק לילדים, ערסלים, כדורים ופינת ישיבה נעימה.  
+- חדרי שינה:  
+  1. הורים – מיטה זוגית יהודית (2 מיטות)  
+  2. חדר נוסף – מיטה וחצי + מיטת חבר (3 מיטות)  
+  3. חדר – ספה נפתחת + מיטה (2 מיטות)  
+  4. חדר – מיטה + מיטת חבר (2 מיטות)  
+  + ספה גדולה בסלון ל־2 ילדים  
+
+- כסאות: כ־23  
+- שולחן אוכל גדול + 2 שולחנות פלסטיק (אירחו בעבר 25 איש)  
+- 2 מקררים גדולים + מקום קירור והקפאה  
+- גישה נוחה מאוד – חניה צמודה, ללא מעליות  
+- מזגן בכל הבית (חוץ משני חדרים – יש מאווררים)  
+- מטבח כשר, מיחם, פלטה גדולה  
+
+🏡 דירה מטופחת, מרווחת ונעימה – חוויית חג ברמה גבוהה!
+
+7500 שח גמיש לפי כמות האנשים
+
+0543090391 054-309-0391 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">8.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span></div>
+  
+  <div class="body">✨ להשכרה לחגים ✨
+דירת 5 חדרים + חצר ענקית 200 מ&quot;ר 🌳  
+11 מיטות + ספה ל־2 ילדים 🛏️  
+טרמפולינה, משחקים לילדים, פינת ישיבה, ערסלים ועוד 🎉  
+מזגנים בכל הבית (חוץ משני חדרים – יש מאווררים) ❄️  
+שתי מקררים, פלטה, מיחם ומטבח כשר 🍽️  
+מרחק הליכה כ־7–8 דקות מהאוהל ⛪  
+
+📍 רחוב הברוש  
+✅ בית חדש, נעים ומרווח – מתאים למשפחות גדולות
+---------------------------------
+
+📋 פירוט מלא:  
+- סלון + מטבח + פינת אוכל גדולה  
+- חצר מרווחת מעל 200 מ&quot;ר: טרמפולינה, מטבח משחק לילדים, ערסלים, כדורים ופינת ישיבה נעימה.  
+- חדרי שינה:  
+  1. הורים – מיטה זוגית יהודית (2 מיטות)  
+  2. חדר נוסף – מיטה וחצי + מיטת חבר (3 מיטות)  
+  3. חדר – ספה נפתחת + מיטה (2 מיטות)  
+  4. חדר – מיטה + מיטת חבר (2 מיטות)  
+  + ספה גדולה בסלון ל־2 ילדים  
+
+- כסאות: כ־23  
+- שולחן אוכל גדול + 2 שולחנות פלסטיק (אירחו בעבר 25 איש)  
+- 2 מקררים גדולים + מקום קירור והקפאה  
+- גישה נוחה מאוד – חניה צמודה, ללא מעליות  
+- מזגן בכל הבית (חוץ משני חדרים – יש מאווררים)  
+- מטבח כשר, מיחם, פלטה גדולה  
+
+🏡 דירה מטופחת, מרווחת ונעימה – חוויית חג ברמה גבוהה!
+
+7500 שח גמיש לפי כמות האנשים
+
+0543090391</div>
+  <div class="foot"><span class="phone">054-309-0391</span><a class="call" href="tel:+972543090391">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="✨ להשכרה לראש השנה הבא עלינו לטובה ✨
+
+מחפשים דירה מרווחת ונעימה לאירוח משפחתי בימים הקדושים?
+דירת 5.5 חדרים דו-קומתית, קומה 2 בבניין, בשכונת נווה מנחם השקטה והאיכותית.
+
+מה מחכה לכם בדירה?
+🏠 דירה מטופחת ומזמינה
+🛏 11 מיטות + אפשרות למזרונים נוספים לפי הצורך
+🍼 ניתן לארגן מיטת תינוק
+🍽 מטבח כשר למהדרין
+📚 ספרי קריאה ומשחקים לילדים על טהרת הקודש
+👨‍👩‍👧‍👦 ניתן לאחד כמה משפחות
+6000₪
+
+
+לפרטים נוספים והזמנות: 050-9008984 050-900-8984 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">8.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">✨ להשכרה לראש השנה הבא עלינו לטובה ✨
+
+מחפשים דירה מרווחת ונעימה לאירוח משפחתי בימים הקדושים?
+דירת 5.5 חדרים דו-קומתית, קומה 2 בבניין, בשכונת נווה מנחם השקטה והאיכותית.
+
+מה מחכה לכם בדירה?
+🏠 דירה מטופחת ומזמינה
+🛏 11 מיטות + אפשרות למזרונים נוספים לפי הצורך
+🍼 ניתן לארגן מיטת תינוק
+🍽 מטבח כשר למהדרין
+📚 ספרי קריאה ומשחקים לילדים על טהרת הקודש
+👨‍👩‍👧‍👦 ניתן לאחד כמה משפחות
+6000₪
+
+
+לפרטים נוספים והזמנות: 050-9008984</div>
+  <div class="foot"><span class="phone">050-900-8984</span><a class="call" href="tel:+972509008984">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה ברמת גבעת זאב החדשה ברחוב החליל וילה חדשה מהנילונים 5 חדרי שינה, סלון גדול, 3 מרפסות.
+*לחגים מבצע מיוחד 8 חדרי שינה בוילה במחיר מיוחד
+ההשכרה גם לתקופה ממושכת.
+לפרטים: שמחה 02-5715256 025715256 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">8.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span></div>
+  
+  <div class="body">להשכרה ברמת גבעת זאב החדשה ברחוב החליל וילה חדשה מהנילונים 5 חדרי שינה, סלון גדול, 3 מרפסות.
+*לחגים מבצע מיוחד 8 חדרי שינה בוילה במחיר מיוחד
+ההשכרה גם לתקופה ממושכת.
+לפרטים: שמחה 02-5715256</div>
+  <div class="foot"><span class="phone">025715256</span><a class="call" href="tel:+97225715256">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="✨ להשכרה לחגים ✨
+דירת 5 חדרים + חצר ענקית 200 מ&quot;ר 🌳  
+11 מיטות + ספה ל־2 ילדים 🛏️  
+טרמפולינה, משחקים לילדים, פינת ישיבה, ערסלים ועוד 🎉  
+מזגנים בכל הבית (חוץ משני חדרים – יש מאווררים) ❄️  
+שתי מקררים, פלטה, מיחם ומטבח כשר 🍽️  
+מרחק הליכה כ־7–8 דקות מהאוהל ⛪  
+
+📍 רחוב הברוש  
+✅ בית חדש, נעים ומרווח – מתאים למשפחות גדולות
+---------------------------------
+
+📋 פירוט מלא:  
+- סלון + מטבח + פינת אוכל גדולה  
+- חצר מרווחת מעל 200 מ&quot;ר: טרמפולינה, מטבח משחק לילדים, ערסלים, כדורים ופינת ישיבה נעימה.  
+- חדרי שינה:  
+  1. הורים – מיטה זוגית יהודית (2 מיטות)  
+  2. חדר נוסף – מיטה וחצי + מיטת חבר (3 מיטות)  
+  3. חדר – ספה נפתחת + מיטה (2 מיטות)  
+  4. חדר – מיטה + מיטת חבר (2 מיטות)  
+  + ספה גדולה בסלון ל־2 ילדים  
+
+- כסאות: כ־23  
+- שולחן אוכל גדול + 2 שולחנות פלסטיק (אירחו בעבר 25 איש)  
+- 2 מקררים גדולים + מקום קירור והקפאה  
+- גישה נוחה מאוד – חניה צמודה, ללא מעליות  
+- מזגן בכל הבית (חוץ משני חדרים – יש מאווררים)  
+- מטבח כשר, מיחם, פלטה גדולה  
+
+🏡 דירה מטופחת, מרווחת ונעימה – חוויית חג ברמה גבוהה!
+
+7500 שח גמיש לפי כמות האנשים 025333018 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">7.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">✨ להשכרה לחגים ✨
+דירת 5 חדרים + חצר ענקית 200 מ&quot;ר 🌳  
+11 מיטות + ספה ל־2 ילדים 🛏️  
+טרמפולינה, משחקים לילדים, פינת ישיבה, ערסלים ועוד 🎉  
+מזגנים בכל הבית (חוץ משני חדרים – יש מאווררים) ❄️  
+שתי מקררים, פלטה, מיחם ומטבח כשר 🍽️  
+מרחק הליכה כ־7–8 דקות מהאוהל ⛪  
+
+📍 רחוב הברוש  
+✅ בית חדש, נעים ומרווח – מתאים למשפחות גדולות
+---------------------------------
+
+📋 פירוט מלא:  
+- סלון + מטבח + פינת אוכל גדולה  
+- חצר מרווחת מעל 200 מ&quot;ר: טרמפולינה, מטבח משחק לילדים, ערסלים, כדורים ופינת ישיבה נעימה.  
+- חדרי שינה:  
+  1. הורים – מיטה זוגית יהודית (2 מיטות)  
+  2. חדר נוסף – מיטה וחצי + מיטת חבר (3 מיטות)  
+  3. חדר – ספה נפתחת + מיטה (2 מיטות)  
+  4. חדר – מיטה + מיטת חבר (2 מיטות)  
+  + ספה גדולה בסלון ל־2 ילדים  
+
+- כסאות: כ־23  
+- שולחן אוכל גדול + 2 שולחנות פלסטיק (אירחו בעבר 25 איש)  
+- 2 מקררים גדולים + מקום קירור והקפאה  
+- גישה נוחה מאוד – חניה צמודה, ללא מעליות  
+- מזגן בכל הבית (חוץ משני חדרים – יש מאווררים)  
+- מטבח כשר, מיחם, פלטה גדולה  
+
+🏡 דירה מטופחת, מרווחת ונעימה – חוויית חג ברמה גבוהה!
+
+7500 שח גמיש לפי כמות האנשים</div>
+  <div class="foot"><span class="phone">025333018</span><a class="call" href="tel:+97225333018">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="וילה ברחוב עמק איילון. 2קומות. חצר גדולה מקורה בפרגולה. 8 חדרים. 2 מטבחים. מחולקת ל2 דירות 4 חדרים נפרדים. מזגנים בחדרים. חדר אוכל גדול מתאים ל20 איש. מעל 20 כסאות. 3 שולחנות אוכל. מקרר ענק. מחם מים חמים. פלטות שבת. ועוד. מתאים למשפחות גדולות. מחיר 8500שח 052-380-8935 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">7.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span></div>
+  
+  <div class="body">וילה ברחוב עמק איילון. 2קומות. חצר גדולה מקורה בפרגולה. 8 חדרים. 2 מטבחים. מחולקת ל2 דירות 4 חדרים נפרדים. מזגנים בחדרים. חדר אוכל גדול מתאים ל20 איש. מעל 20 כסאות. 3 שולחנות אוכל. מקרר ענק. מחם מים חמים. פלטות שבת. ועוד. מתאים למשפחות גדולות. מחיר 8500שח</div>
+  <div class="foot"><span class="phone">052-380-8935</span><a class="call" href="tel:+972523808935">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="📋 רשימת דירות לראש השנה – מהזול ליקר 📋
+
+1️⃣ יחידה – 2 חדרים, יהושע בן נון  
+🛏 2 מיטות + אופציה למזרון ולול  
+❄️ ממוזגת, מרוהטת קומפלט  
+💰 2,200 ₪  
+📞 
+
+---
+
+2️⃣ דירת 5 חדרים משופצת ונקייה
+ב4 החדרים 2 מיטות בכל חדר
+בסלון מיטה נפתחת למיטה וחצי
+מזגנים בכל החדרים
+סלון ופינת אוכל גדולים
+מרפסת ענקית 
+רחוב דוכיפת
+10000 שח
+
+
+---
+
+3️⃣ יחידת דיור – רחוב ענתות (מעל קרלין)  
+🛏 חדר ענק עם מיטה זוגית + אופציה להרבה מזרונים  
+💑 מתאים לזוג/זוג עם 2 ילדים  
+💰 3,800 ₪  
+📞 
+
+---
+
+4️⃣ דירה 5 חד&#x27; – רח&#x27; הברוש  
+🛏 7 מיטות + מיטת תינוק + מיטת מעבר | אפשרות למזרונים  
+❄️ מיזוג + מרפסת לנוף  
+🍽️ פלטה + מיחם  
+💰 4,500 ₪  
+📞   
+
+---
+
+5️⃣ קרית יערים  
+🏠 3 חדרי שינה + סלון | 9 מיטות (2 לנוער)  
+🛏 עד 10 אנשים | כולל מיחם ופלטה  
+💰 5,000 ₪  
+📞 
+
+---
+
+6️⃣ רחוב הברוש – נוף לקבר שמואל הנביא  
+🏠 3 חדרי שינה + סלון | 4 מיטות + ספה | 10 מזרנים נוספים  
+🍼 לול לתינוק + מיטת ילד  
+🏢 קומה 6 עם מעלית שבת  
+💰 5,000 ₪  
+📞 
+
+---
+
+7️⃣ דירה בברוש  
+🏠 4 חדרי שינה גדולים (מיטה זוגית, 2 יחיד, לול + אופציה למזרנים)  
+🍽️ כולל מיחם ופלטה  
+💰 5,000 ₪  
+📞 
+
+---
+
+8️⃣ דירת 3 חדרים מרווחת – רחוב יהושע בן נון (מתחת למרכז המסחרי)  
+🛏 מקום לפרוס מזרונים, אפשרות למיטת תינוק וכיסא תינוק  
+💰 5,500 ₪  
+📞 
+
+---
+
+9️⃣ דירה – רחוב יהושע בן נון  
+🏠 4 חדרים | 6 מיטות יהודיות | גינה גדולה  
+🍽️ מטבח כשר עם 2 כיורים + 2 מקררים  
+🛏 10 מזרנים נוספים  
+💰 6,000 ₪  
+📞 
+
+---
+
+🔟 דירה – נווה מנחם (קומת קרקע)  
+🏠 4 חדרים, 3 חדרי שינה | 7 מיטות  
+🍽️ כולל מקרר, פלטה ומיחם  
+❄️ מזגנים | מרפסת | 10 דקות מהרב  
+💰 6,000 ₪  
+📞 
+
+---
+
+1️⃣1️⃣ דירת 5.5 חד’ דו-קומתית – נווה מנחם  
+🛏 11 מיטות + אופציה למזרונים | אופציה למיטת תינוק  
+🍽️ מטבח כשר למהדרין | ספרים ומשחקים לילדים  
+👨‍👩‍👧‍👦 מתאים גם לכמה משפחות  
+💰 6,000 ₪  
+📞 
+
+---
+
+1️⃣2️⃣ וילה חדשה – האיילות  
+🏠 6 חדרים | 24 מיטות  
+💰 6,000 ₪  
+📞 
+
+---
+
+1️⃣3️⃣ דירה 5 חדרים + חצר ענקית – רחוב הברוש  
+🌳 200 מ&quot;ר חצר עם טרמפולינה, ערסלים, משחקים  
+🛏 11 מיטות + ספה ל־2 ילדים  
+🍽️ 2 מקררים, פלטה, מיחם, מטבח כשר  
+❄️ מיזוג בכל הבית (מלבד 2 חדרים עם מאווררים)  
+💰 7,500 ₪ (גמיש)  
+📞
+
+---
+
+1️⃣4️⃣ דירת 4 חדרים – רחוב הרימון (10 דק&#x27; מהאתרוג)  
+🛏 מיטה זוגית + מיטה וחצי + 2 מיטות יחיד (אפשרות למזרונים)  
+🚫 נשמח ללא ילדים  
+💰 8,000 ₪ (גמיש)  
+📞 
+
+---
+
+1️⃣5️⃣ וילה – 8 חדרים  
+🏠 2 קומות | 2 מטבחים | 4 חדרי שירותים | חצר גדולה | בריכת דגים לתשליך  
+💰 8,500 ₪  
+📞 
+
+16
+דירת 3 חדרים מרווחת וגדולה ברחוב יהושוע בן נון 
+מתאימה בכיף למשפחה, יש הרבה מקום לפרוס מזרונים בסלון ובחדר .
+מזגן בכל חדר 
+מרווחת 2 מיטות זוגיות 1 יחיד ו3 מזרונים 
+אפשר ליצור קשר איתי,
+3600₪ 025333018 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">7.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">📋 רשימת דירות לראש השנה – מהזול ליקר 📋
+
+1️⃣ יחידה – 2 חדרים, יהושע בן נון  
+🛏 2 מיטות + אופציה למזרון ולול  
+❄️ ממוזגת, מרוהטת קומפלט  
+💰 2,200 ₪  
+📞 
+
+---
+
+2️⃣ דירת 5 חדרים משופצת ונקייה
+ב4 החדרים 2 מיטות בכל חדר
+בסלון מיטה נפתחת למיטה וחצי
+מזגנים בכל החדרים
+סלון ופינת אוכל גדולים
+מרפסת ענקית 
+רחוב דוכיפת
+10000 שח
+
+
+---
+
+3️⃣ יחידת דיור – רחוב ענתות (מעל קרלין)  
+🛏 חדר ענק עם מיטה זוגית + אופציה להרבה מזרונים  
+💑 מתאים לזוג/זוג עם 2 ילדים  
+💰 3,800 ₪  
+📞 
+
+---
+
+4️⃣ דירה 5 חד&#x27; – רח&#x27; הברוש  
+🛏 7 מיטות + מיטת תינוק + מיטת מעבר | אפשרות למזרונים  
+❄️ מיזוג + מרפסת לנוף  
+🍽️ פלטה + מיחם  
+💰 4,500 ₪  
+📞   
+
+---
+
+5️⃣ קרית יערים  
+🏠 3 חדרי שינה + סלון | 9 מיטות (2 לנוער)  
+🛏 עד 10 אנשים | כולל מיחם ופלטה  
+💰 5,000 ₪  
+📞 
+
+---
+
+6️⃣ רחוב הברוש – נוף לקבר שמואל הנביא  
+🏠 3 חדרי שינה + סלון | 4 מיטות + ספה | 10 מזרנים נוספים  
+🍼 לול לתינוק + מיטת ילד  
+🏢 קומה 6 עם מעלית שבת  
+💰 5,000 ₪  
+📞 
+
+---
+
+7️⃣ דירה בברוש  
+🏠 4 חדרי שינה גדולים (מיטה זוגית, 2 יחיד, לול + אופציה למזרנים)  
+🍽️ כולל מיחם ופלטה  
+💰 5,000 ₪  
+📞 
+
+---
+
+8️⃣ דירת 3 חדרים מרווחת – רחוב יהושע בן נון (מתחת למרכז המסחרי)  
+🛏 מקום לפרוס מזרונים, אפשרות למיטת תינוק וכיסא תינוק  
+💰 5,500 ₪  
+📞 
+
+---
+
+9️⃣ דירה – רחוב יהושע בן נון  
+🏠 4 חדרים | 6 מיטות יהודיות | גינה גדולה  
+🍽️ מטבח כשר עם 2 כיורים + 2 מקררים  
+🛏 10 מזרנים נוספים  
+💰 6,000 ₪  
+📞 
+
+---
+
+🔟 דירה – נווה מנחם (קומת קרקע)  
+🏠 4 חדרים, 3 חדרי שינה | 7 מיטות  
+🍽️ כולל מקרר, פלטה ומיחם  
+❄️ מזגנים | מרפסת | 10 דקות מהרב  
+💰 6,000 ₪  
+📞 
+
+---
+
+1️⃣1️⃣ דירת 5.5 חד’ דו-קומתית – נווה מנחם  
+🛏 11 מיטות + אופציה למזרונים | אופציה למיטת תינוק  
+🍽️ מטבח כשר למהדרין | ספרים ומשחקים לילדים  
+👨‍👩‍👧‍👦 מתאים גם לכמה משפחות  
+💰 6,000 ₪  
+📞 
+
+---
+
+1️⃣2️⃣ וילה חדשה – האיילות  
+🏠 6 חדרים | 24 מיטות  
+💰 6,000 ₪  
+📞 
+
+---
+
+1️⃣3️⃣ דירה 5 חדרים + חצר ענקית – רחוב הברוש  
+🌳 200 מ&quot;ר חצר עם טרמפולינה, ערסלים, משחקים  
+🛏 11 מיטות + ספה ל־2 ילדים  
+🍽️ 2 מקררים, פלטה, מיחם, מטבח כשר  
+❄️ מיזוג בכל הבית (מלבד 2 חדרים עם מאווררים)  
+💰 7,500 ₪ (גמיש)  
+📞
+
+---
+
+1️⃣4️⃣ דירת 4 חדרים – רחוב הרימון (10 דק&#x27; מהאתרוג)  
+🛏 מיטה זוגית + מיטה וחצי + 2 מיטות יחיד (אפשרות למזרונים)  
+🚫 נשמח ללא ילדים  
+💰 8,000 ₪ (גמיש)  
+📞 
+
+---
+
+1️⃣5️⃣ וילה – 8 חדרים  
+🏠 2 קומות | 2 מטבחים | 4 חדרי שירותים | חצר גדולה | בריכת דגים לתשליך  
+💰 8,500 ₪  
+📞 
+
+16
+דירת 3 חדרים מרווחת וגדולה ברחוב יהושוע בן נון 
+מתאימה בכיף למשפחה, יש הרבה מקום לפרוס מזרונים בסלון ובחדר .
+מזגן בכל חדר 
+מרווחת 2 מיטות זוגיות 1 יחיד ו3 מזרונים 
+אפשר ליצור קשר איתי,
+3600₪</div>
+  <div class="foot"><span class="phone">025333018</span><a class="call" href="tel:+97225333018">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="5 דקות מקרלים. שבט בנימין.
+פנוי לראש השנה. 3 חדרי שינה. מזגן בכל חדר. 2 מיטות זוגיות, 5 מיטות יחיד. ספה נפתחת בסלון נקיה ושמורה. 5000₪ 025333018 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">7.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">5 דקות מקרלים. שבט בנימין.
+פנוי לראש השנה. 3 חדרי שינה. מזגן בכל חדר. 2 מיטות זוגיות, 5 מיטות יחיד. ספה נפתחת בסלון נקיה ושמורה. 5000₪</div>
+  <div class="foot"><span class="phone">025333018</span><a class="call" href="tel:+97225333018">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="דירה גדולה נקיה יפה ומטופחת 5 חדרים ברחוב הגיא.
+להשכרה לשבת נצבים וילך *לא לחגים*.
+לפרטים נא לפנות באישי. 052-773-6000 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">7.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span></div>
+  
+  <div class="body">דירה גדולה נקיה יפה ומטופחת 5 חדרים ברחוב הגיא.
+להשכרה לשבת נצבים וילך *לא לחגים*.
+לפרטים נא לפנות באישי.</div>
+  <div class="foot"><span class="phone">052-773-6000</span><a class="call" href="tel:+972527736000">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="📋 רשימת דירות לראש השנה – 📋
+
+1️⃣ יחידה – 2 חדרים, יהושע בן נון  
+🛏 2 מיטות + אופציה למזרון ולול  
+❄️ ממוזגת, מרוהטת קומפלט  
+💰 2,200 ₪  
+
+
+---
+
+2️⃣ יחידת דיור – רחוב ענתות (מעל קרלין)  
+🛏 חדר ענק עם מיטה זוגית 180/190 + אופציה להרבה מזרונים  
+💑 מתאים לזוג/זוג עם 2 ילדים  
+💰 3,800 ₪  
+
+
+---
+
+3️⃣ קרית יערים  
+🏠 3 חדרי שינה + סלון | 9 מיטות (2 לנוער)  
+🛏️ עד 10 אנשים | כולל מיחם ופלטה  
+💰 5,000 ₪  
+
+
+---
+
+4️⃣ רחוב הברוש – נוף לקבר שמואל הנביא  
+🏠 3 חדרי שינה + סלון | 4 מיטות + ספה | 10 מזרנים נוספים  
+🍼 לול לתינוק + מיטת ילד  
+🏢 קומה 6 עם מעלית שבת  
+💰 5,000 ₪ לכל החג  
+
+
+---
+
+5️⃣ דירה בברוש  
+🏠 4 חדרי שינה גדולים (מיטה זוגית, 2 יחיד, לול + אופציה למזרנים)  
+🍽️ כולל מיחם ופלטה  
+💰 5,000 ₪  
+
+
+---
+
+6️⃣ דירה – רחוב יהושע בן נון  
+🏠 4 חדרים | 6 מיטות יהודיות | גינה גדולה  
+🍽️ מטבח כשר עם 2 כיורים + 2 מקררים  
+🛏️ 10 מזרנים נוספים  
+💰 6,000 ₪  
+
+
+---
+
+7️⃣ דירה – נווה מנחם (קומת קרקע)  
+🏠 4 חדרים, 3 חדרי שינה | 7 מיטות  
+🍽️ כולל מקרר, פלטה ומיחם  
+❄️ מזגנים | מרפסת | 10 דקות מהרב  
+💰 6,000 ₪  
+
+
+---
+
+8️⃣ דירת 5.5 חד’ דו-קומתית – נווה מנחם  
+🛏 11 מיטות + אופציה למזרונים | אופציה למיטת תינוק  
+🍽️ מטבח כשר למהדרין | ספרים ומשחקים לילדים  
+👨‍👩‍👧‍👦 מתאים גם לכמה משפחות  
+💰 6,000 ₪  
+
+
+---
+
+9️⃣ וילה חדשה בהאיילות
+
+6 חדרים 
+24 מיטות 
+6 אלף
+
+
+---
+
+🔟 וילה 8 חדרים. 2 מטבחים. 4 חדרי שירותים. חצר גדולה. בריכת דגים לתשליך.2 קומות.  
+8500 שח
+
+
+
+11
+דירה 5 חד&#x27; ברח&#x27; הברוש! 
+7 מיטות מיטת תינוק ומיטת מעבר מיזוג מרפסת לנוף. פלטה מיחם.
+אפשרות למזרונים.
+4500 025333018 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">5.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">📋 רשימת דירות לראש השנה – 📋
+
+1️⃣ יחידה – 2 חדרים, יהושע בן נון  
+🛏 2 מיטות + אופציה למזרון ולול  
+❄️ ממוזגת, מרוהטת קומפלט  
+💰 2,200 ₪  
+
+
+---
+
+2️⃣ יחידת דיור – רחוב ענתות (מעל קרלין)  
+🛏 חדר ענק עם מיטה זוגית 180/190 + אופציה להרבה מזרונים  
+💑 מתאים לזוג/זוג עם 2 ילדים  
+💰 3,800 ₪  
+
+
+---
+
+3️⃣ קרית יערים  
+🏠 3 חדרי שינה + סלון | 9 מיטות (2 לנוער)  
+🛏️ עד 10 אנשים | כולל מיחם ופלטה  
+💰 5,000 ₪  
+
+
+---
+
+4️⃣ רחוב הברוש – נוף לקבר שמואל הנביא  
+🏠 3 חדרי שינה + סלון | 4 מיטות + ספה | 10 מזרנים נוספים  
+🍼 לול לתינוק + מיטת ילד  
+🏢 קומה 6 עם מעלית שבת  
+💰 5,000 ₪ לכל החג  
+
+
+---
+
+5️⃣ דירה בברוש  
+🏠 4 חדרי שינה גדולים (מיטה זוגית, 2 יחיד, לול + אופציה למזרנים)  
+🍽️ כולל מיחם ופלטה  
+💰 5,000 ₪  
+
+
+---
+
+6️⃣ דירה – רחוב יהושע בן נון  
+🏠 4 חדרים | 6 מיטות יהודיות | גינה גדולה  
+🍽️ מטבח כשר עם 2 כיורים + 2 מקררים  
+🛏️ 10 מזרנים נוספים  
+💰 6,000 ₪  
+
+
+---
+
+7️⃣ דירה – נווה מנחם (קומת קרקע)  
+🏠 4 חדרים, 3 חדרי שינה | 7 מיטות  
+🍽️ כולל מקרר, פלטה ומיחם  
+❄️ מזגנים | מרפסת | 10 דקות מהרב  
+💰 6,000 ₪  
+
+
+---
+
+8️⃣ דירת 5.5 חד’ דו-קומתית – נווה מנחם  
+🛏 11 מיטות + אופציה למזרונים | אופציה למיטת תינוק  
+🍽️ מטבח כשר למהדרין | ספרים ומשחקים לילדים  
+👨‍👩‍👧‍👦 מתאים גם לכמה משפחות  
+💰 6,000 ₪  
+
+
+---
+
+9️⃣ וילה חדשה בהאיילות
+
+6 חדרים 
+24 מיטות 
+6 אלף
+
+
+---
+
+🔟 וילה 8 חדרים. 2 מטבחים. 4 חדרי שירותים. חצר גדולה. בריכת דגים לתשליך.2 קומות.  
+8500 שח
+
+
+
+11
+דירה 5 חד&#x27; ברח&#x27; הברוש! 
+7 מיטות מיטת תינוק ומיטת מעבר מיזוג מרפסת לנוף. פלטה מיחם.
+אפשרות למזרונים.
+4500</div>
+  <div class="foot"><span class="phone">025333018</span><a class="call" href="tel:+97225333018">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="📢 מאגר דירות לראש השנה 📢
+
+🏡 מגוון דירות מיוחדות להשכרה בגבעת זאב ובסביבה  
+💰 גישה למאגר – בתשלום חד־פעמי של 50 ש&quot;ח בלבד  
+
+📬 לפרטים והרשמה:  
+k025333018@gmail.com 025333018 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">5.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">📢 מאגר דירות לראש השנה 📢
+
+🏡 מגוון דירות מיוחדות להשכרה בגבעת זאב ובסביבה  
+💰 גישה למאגר – בתשלום חד־פעמי של 50 ש&quot;ח בלבד  
+
+📬 לפרטים והרשמה:  
+k025333018@gmail.com</div>
+  <div class="foot"><span class="phone">025333018</span><a class="call" href="tel:+97225333018">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה לראש השנה ; דירת 4 חדרים  ברח&#x27; יהושוע בן נון.
+6 מיטות יהודיות.
+מטבח כשר,2 כיורים,2 מקררים.
+גינה גדולה.
+שולחן אוכל ל16 סועדים.
+כסאות בשפע.
+10 מזרנים.
+6000 שח
+
+ לפרטים בוואטסאפ, מעיין-  0505066976. 050-506-6976 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">4.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span></div>
+  
+  <div class="body">להשכרה לראש השנה ; דירת 4 חדרים  ברח&#x27; יהושוע בן נון.
+6 מיטות יהודיות.
+מטבח כשר,2 כיורים,2 מקררים.
+גינה גדולה.
+שולחן אוכל ל16 סועדים.
+כסאות בשפע.
+10 מזרנים.
+6000 שח
+
+ לפרטים בוואטסאפ, מעיין-  0505066976.</div>
+  <div class="foot"><span class="phone">050-506-6976</span><a class="call" href="tel:+972505066976">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="וילה חדשה בהאיילות
+
+6 חדרים 
+24 מיטות 
+6 אלף 025333018 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">4.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">וילה חדשה בהאיילות
+
+6 חדרים 
+24 מיטות 
+6 אלף</div>
+  <div class="foot"><span class="phone">025333018</span><a class="call" href="tel:+97225333018">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="וילה 8 חדרים. 2 מטבחים. 4 חדרי שירותים. חצר גדולה. בריכת דגים לתשליך.2 קומות.
+8500 שח 025333018 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">4.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">וילה 8 חדרים. 2 מטבחים. 4 חדרי שירותים. חצר גדולה. בריכת דגים לתשליך.2 קומות.
+8500 שח</div>
+  <div class="foot"><span class="phone">025333018</span><a class="call" href="tel:+97225333018">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="להשכרה דירה לראש השנה בברוש!
+4 חדרי שינה גדולים: מיטה זוגית, 2 מיטות יחיד, לול תינוק ואפשרות למזרנים.
+דירה גדולה ומרווחת.
+בדירה יש מיחם ופלטה.
+5000 שח 025333018 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">3.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה דירה לראש השנה בברוש!
+4 חדרי שינה גדולים: מיטה זוגית, 2 מיטות יחיד, לול תינוק ואפשרות למזרנים.
+דירה גדולה ומרווחת.
+בדירה יש מיחם ופלטה.
+5000 שח</div>
+  <div class="foot"><span class="phone">025333018</span><a class="call" href="tel:+97225333018">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="להשכרה לראש השנה ; דירת 4 חדרים  ברח&#x27; יהושוע בן נון.
+6 מיטות יהודיות.
+מטבח כשר,2 כיורים,2 מקררים.
+גינה גדולה.
+שולחן אוכל ל16 סועדים.
+כסאות בשפע.
+10 מזרנים.
+6000 שח 025333018 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">3.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה לראש השנה ; דירת 4 חדרים  ברח&#x27; יהושוע בן נון.
+6 מיטות יהודיות.
+מטבח כשר,2 כיורים,2 מקררים.
+גינה גדולה.
+שולחן אוכל ל16 סועדים.
+כסאות בשפע.
+10 מזרנים.
+6000 שח</div>
+  <div class="foot"><span class="phone">025333018</span><a class="call" href="tel:+97225333018">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="✨ להשכרה לראש השנה הבא עלינו לטובה ✨
+
+מחפשים דירה מרווחת ונעימה לאירוח משפחתי בימים הקדושים?
+דירת 5.5 חדרים דו-קומתית, קומה 2 בבניין, בשכונת נווה מנחם השקטה והאיכותית.
+
+מה מחכה לכם בדירה?
+🏠 דירה מטופחת ומזמינה
+🛏 11 מיטות + אפשרות למזרונים נוספים לפי הצורך
+🍼 ניתן לארגן מיטת תינוק
+🍽 מטבח כשר למהדרין
+📚 ספרי קריאה ומשחקים לילדים על טהרת הקודש
+👨‍👩‍👧‍👦 ניתן לאחד כמה משפחות
+6000₪ 025333018 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">3.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">✨ להשכרה לראש השנה הבא עלינו לטובה ✨
+
+מחפשים דירה מרווחת ונעימה לאירוח משפחתי בימים הקדושים?
+דירת 5.5 חדרים דו-קומתית, קומה 2 בבניין, בשכונת נווה מנחם השקטה והאיכותית.
+
+מה מחכה לכם בדירה?
+🏠 דירה מטופחת ומזמינה
+🛏 11 מיטות + אפשרות למזרונים נוספים לפי הצורך
+🍼 ניתן לארגן מיטת תינוק
+🍽 מטבח כשר למהדרין
+📚 ספרי קריאה ומשחקים לילדים על טהרת הקודש
+👨‍👩‍👧‍👦 ניתן לאחד כמה משפחות
+6000₪</div>
+  <div class="foot"><span class="phone">025333018</span><a class="call" href="tel:+97225333018">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="קוטג&#x27; מרווח
+3 חדרים סגורים עם 3 מיטות זוגיות
+סלון עם 2 מיטות ל 2 מבוגרים נוספים
+13 מזרנים חלק עבים
+לול תינוק
+כלי מיטה
+3 חדרים שירותים ואמבטיה
+מרפסת ענקית עם מתקנים
+פלטה ומיחם
+שולחן אוכל וכסאות ל 20 איש.
+ממוזגת
+מרחק הליכה לתפילה 9 דקות
+מחיר מבוקש 6000 שח 025333018 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">3.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">קוטג&#x27; מרווח
+3 חדרים סגורים עם 3 מיטות זוגיות
+סלון עם 2 מיטות ל 2 מבוגרים נוספים
+13 מזרנים חלק עבים
+לול תינוק
+כלי מיטה
+3 חדרים שירותים ואמבטיה
+מרפסת ענקית עם מתקנים
+פלטה ומיחם
+שולחן אוכל וכסאות ל 20 איש.
+ממוזגת
+מרחק הליכה לתפילה 9 דקות
+מחיר מבוקש 6000 שח</div>
+  <div class="foot"><span class="phone">025333018</span><a class="call" href="tel:+97225333018">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="יש לנו דיון עם משכיר על מרחק הליכה מהבית כנסת לרחוב הברוש
+
+ככל הידוע לי מדובר ב 20 דקות הליכה 
+עם כל הקיצורי דרך, לאדם ממוצע שהולך בקצב רגיל ולא במרתון 
+האם אפשר לתקתק את הדרך הזאת בעשר דקות?
+
+מבקשת לשמוע מכאלה שעשו את הדרך,
+שוכרים כבודכם במקומו מונח אני רוצה לקבל חוות דעת קונקרטית. 053-705-5444 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">2.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span></div>
+  
+  <div class="body">יש לנו דיון עם משכיר על מרחק הליכה מהבית כנסת לרחוב הברוש
+
+ככל הידוע לי מדובר ב 20 דקות הליכה 
+עם כל הקיצורי דרך, לאדם ממוצע שהולך בקצב רגיל ולא במרתון 
+האם אפשר לתקתק את הדרך הזאת בעשר דקות?
+
+מבקשת לשמוע מכאלה שעשו את הדרך,
+שוכרים כבודכם במקומו מונח אני רוצה לקבל חוות דעת קונקרטית.</div>
+  <div class="foot"><span class="phone">053-705-5444</span><a class="call" href="tel:+972537055444">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה וילה באיילות (מול רחוב התן) 7 חדרים עד 26 מיטות[לא כולל מזרונים] עם מרפסות ,  לראש השנה.   לפרטים: 0527643389 052-764-3389 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">2.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span></div>
+  
+  <div class="body">להשכרה וילה באיילות (מול רחוב התן) 7 חדרים עד 26 מיטות[לא כולל מזרונים] עם מרפסות ,  לראש השנה.   לפרטים: 0527643389</div>
+  <div class="foot"><span class="phone">052-764-3389</span><a class="call" href="tel:+972527643389">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה דירה לראש השנה בברוש!
+4 חדרי שינה גדולים: מיטה זוגית, 2 מיטות יחיד, לול תינוק ואפשרות למזרנים.
+דירה גדולה ומרווחת.
+בדירה יש מיחם ופלטה.
+לפרטים
+0544416997 054-441-6997 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">1.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span></div>
+  
+  <div class="body">להשכרה דירה לראש השנה בברוש!
+4 חדרי שינה גדולים: מיטה זוגית, 2 מיטות יחיד, לול תינוק ואפשרות למזרנים.
+דירה גדולה ומרווחת.
+בדירה יש מיחם ופלטה.
+לפרטים
+0544416997</div>
+  <div class="foot"><span class="phone">054-441-6997</span><a class="call" href="tel:+972544416997">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="0" data-text="להשכרה לראש השנה רח&#x27; הברוש!
+5 חד&#x27;, 7 מיטות + מיטת תינוק ומיטת מעבר. פלטה מיחם. מיזוג. מרפסת לנוף. 
+לפרטים לשלוח הודעה  0555-640490 055-564-0490 דירות להשכרה בגבעת זאב לחגים">
+  <div class="top"><span class="date">1.9.2025</span><span class="src">דירות להשכרה בגבעת זאב לחגים</span></div>
+  
+  <div class="body">להשכרה לראש השנה רח&#x27; הברוש!
+5 חד&#x27;, 7 מיטות + מיטת תינוק ומיטת מעבר. פלטה מיחם. מיזוג. מרפסת לנוף. 
+לפרטים לשלוח הודעה  0555-640490</div>
+  <div class="foot"><span class="phone">055-564-0490</span><a class="call" href="tel:+972555640490">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2025" data-broker="1" data-text="מעוניינים להשכיר דירה גדולה  ברחוב קרית יערים  לשבת הקרובה שבת ר&quot;ח אדר -שקלים
+ניתן ליצור קשר במספר
+0546812684 054-681-2684 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">22.2.2025</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">מעוניינים להשכיר דירה גדולה  ברחוב קרית יערים  לשבת הקרובה שבת ר&quot;ח אדר -שקלים
+ניתן ליצור קשר במספר
+0546812684</div>
+  <div class="foot"><span class="phone">054-681-2684</span><a class="call" href="tel:+972546812684">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2024" data-broker="1" data-text="מעוניינים להחליף דירה גדולה מגבעת זאב רחוב קרית יערים.לטבריה שיכון ד&#x27; לשבת הקרובה.
+או  לשכור דירה בטבריה. ולהשכיר בגבעת זאב
+ניתן להתקשר למספר
+0546812684 054-681-2684 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">17.12.2024</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">מעוניינים להחליף דירה גדולה מגבעת זאב רחוב קרית יערים.לטבריה שיכון ד&#x27; לשבת הקרובה.
+או  לשכור דירה בטבריה. ולהשכיר בגבעת זאב
+ניתן להתקשר למספר
+0546812684</div>
+  <div class="foot"><span class="phone">054-681-2684</span><a class="call" href="tel:+972546812684">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2024" data-broker="1" data-text="דירת 4 חדרים להשכרה לשבת הקרובה פרשת חוקת ברחוב קרית יערים 0546812684 או 0534112734 054-681-2684 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">10.7.2024</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">דירת 4 חדרים להשכרה לשבת הקרובה פרשת חוקת ברחוב קרית יערים 0546812684 או 0534112734</div>
+  <div class="foot"><span class="phone">054-681-2684</span><a class="call" href="tel:+972546812684">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="ניתן לשכור את הדירה שלנו בשבת הבא פרשת תולדות ובפרשת ויצא
+
+רחוב שבט בנימין 87 דירת שלושה חדרים 
+סה&quot;כ 6 מיטות 
+יש עריסת תינוק בחדר ההורים 
+יש מזגן בחדר ההורים ומאוורר בחדר הילדים אם נחוץ 
+גינה עם משחקים לילדים 
+יש פלטה ומיחם
+
+0584001931 058-400-1931 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">17.11.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">ניתן לשכור את הדירה שלנו בשבת הבא פרשת תולדות ובפרשת ויצא
+
+רחוב שבט בנימין 87 דירת שלושה חדרים 
+סה&quot;כ 6 מיטות 
+יש עריסת תינוק בחדר ההורים 
+יש מזגן בחדר ההורים ומאוורר בחדר הילדים אם נחוץ 
+גינה עם משחקים לילדים 
+יש פלטה ומיחם
+
+0584001931</div>
+  <div class="foot"><span class="phone">058-400-1931</span><a class="call" href="tel:+972584001931">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="מתפנה דירה להשכרה
+ברחוב  האתרוג
+2 חדרים
+מרווחת מאוד ומוארת
+ריהוט חלקי ומזגנים
+לפרטים 0546482489 054-648-2489 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">21.10.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">מתפנה דירה להשכרה
+ברחוב  האתרוג
+2 חדרים
+מרווחת מאוד ומוארת
+ריהוט חלקי ומזגנים
+לפרטים 0546482489</div>
+  <div class="foot"><span class="phone">054-648-2489</span><a class="call" href="tel:+972546482489">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="יש לי דירה 4 חדרים.
+פנויה בראש השנה.
+באיילות לקראת 101
+
++972 54-849-1770 054-849-1770 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">16.10.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">יש לי דירה 4 חדרים.
+פנויה בראש השנה.
+באיילות לקראת 101
+
++972 54-849-1770</div>
+  <div class="foot"><span class="phone">054-849-1770</span><a class="call" href="tel:+972548491770">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="יש לי דירה עם מיטה גדולה מאד ומזרן יחיד
+
+
++972 50-260-8438 050-260-8438 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">16.10.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">יש לי דירה עם מיטה גדולה מאד ומזרן יחיד
+
+
++972 50-260-8438</div>
+  <div class="foot"><span class="phone">050-260-8438</span><a class="call" href="tel:+972502608438">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="1" data-text="דירת 4 חדרים מכבים ליד הככר
+
+8 מיטות
+
+בעלת הדירה נשארת בקומה התחתונה
+
+ומשכירה את הת הקומה העליונה
+
+כניסה משותפת
+
+חדר אוכל ומטבח בקומה התחתונה 
+גינה מקסימה וגדולה עם שולחן אוכל וכיסאות לשמונה איש מקסימום.
+
+050-858-7686 050-858-7686 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">6.10.2022</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">דירת 4 חדרים מכבים ליד הככר
+
+8 מיטות
+
+בעלת הדירה נשארת בקומה התחתונה
+
+ומשכירה את הת הקומה העליונה
+
+כניסה משותפת
+
+חדר אוכל ומטבח בקומה התחתונה 
+גינה מקסימה וגדולה עם שולחן אוכל וכיסאות לשמונה איש מקסימום.
+
+050-858-7686</div>
+  <div class="foot"><span class="phone">050-858-7686</span><a class="call" href="tel:+972508587686">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="1" data-text="יחידת דיור להשכרה
+
+לשבת וחג הסוכות, לא כולל שמחת תורה
+6 מיטות
+בתוך השכונה
+לפרטים באישי 058-753-9677 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">6.10.2022</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">יחידת דיור להשכרה
+
+לשבת וחג הסוכות, לא כולל שמחת תורה
+6 מיטות
+בתוך השכונה
+לפרטים באישי</div>
+  <div class="foot"><span class="phone">058-753-9677</span><a class="call" href="tel:+972587539677">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="להשכרה *לחג סוכות,* ולשבת סוכות ולחול המועד
+יש סוכת חזון איש למהדרין גדולה בחצר,
+ולשבתות בכלל,
+לא כולל שמחת תורה!תפוס כבר!
+
+
+בית פרטי 3 קומות
+8 חדרים עם נוף מדהים,
+בית מושקע ומטופח ביותר.
+בבית יש :
+20 מיטות
+8 מזרנים
+2 לולים לתינוקות,
+יש גם משחקים לילדים,
+כולל מצעים,
+2 דקות הליכה לפארק הגיא.
+כולל פלטה ומיחם,
+
+לפרטים :0522145456 רות 052-214-5456 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">6.10.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה *לחג סוכות,* ולשבת סוכות ולחול המועד
+יש סוכת חזון איש למהדרין גדולה בחצר,
+ולשבתות בכלל,
+לא כולל שמחת תורה!תפוס כבר!
+
+
+בית פרטי 3 קומות
+8 חדרים עם נוף מדהים,
+בית מושקע ומטופח ביותר.
+בבית יש :
+20 מיטות
+8 מזרנים
+2 לולים לתינוקות,
+יש גם משחקים לילדים,
+כולל מצעים,
+2 דקות הליכה לפארק הגיא.
+כולל פלטה ומיחם,
+
+לפרטים :0522145456 רות</div>
+  <div class="foot"><span class="phone">052-214-5456</span><a class="call" href="tel:+972522145456">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="1" data-text="*מכבים 62*
+
+קוטג 
+
+3 חדרים
+
+4 מיטות 6 מזרונים 058-753-9677 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">3.10.2022</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">*מכבים 62*
+
+קוטג 
+
+3 חדרים
+
+4 מיטות 6 מזרונים</div>
+  <div class="foot"><span class="phone">058-753-9677</span><a class="call" href="tel:+972587539677">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="1" data-text="וילה+צימר להשכרה בזמנים שמתאים לשוכרים סך 8 חדרים אפשרות לחלק ל4 יחידות נפרדות או פחות לפי גודל המשפחה ברחוב עמק איילון 058-753-9677 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">3.10.2022</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">וילה+צימר להשכרה בזמנים שמתאים לשוכרים סך 8 חדרים אפשרות לחלק ל4 יחידות נפרדות או פחות לפי גודל המשפחה ברחוב עמק איילון</div>
+  <div class="foot"><span class="phone">058-753-9677</span><a class="call" href="tel:+972587539677">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="1" data-text="להשכרה *לשבתות*
+ *לא לחגים*
+ *(המשפחה המשכירה היא משפחה מאנ&quot;ש )* 
+
+דירה גדולה ומרווחת 5 חדרים 
+מאווררת ומטופחת 
+ברחוב קריית יערים.
+עם מרפסת לרחוב האתרוג עם נוף משגע 
+
+מה בדירה?
+10 מיטות 
+1 ספה גדולה כמו מיטה
+8 מזרנים
+עריסת תינוק 058-753-9677 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">29.9.2022</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה *לשבתות*
+ *לא לחגים*
+ *(המשפחה המשכירה היא משפחה מאנ&quot;ש )* 
+
+דירה גדולה ומרווחת 5 חדרים 
+מאווררת ומטופחת 
+ברחוב קריית יערים.
+עם מרפסת לרחוב האתרוג עם נוף משגע 
+
+מה בדירה?
+10 מיטות 
+1 ספה גדולה כמו מיטה
+8 מזרנים
+עריסת תינוק</div>
+  <div class="foot"><span class="phone">058-753-9677</span><a class="call" href="tel:+972587539677">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="יחידה ברחוב קרית יערים אפשרויות להשכרה לשבת תשובה ויו&#x27;&#x27;כ וכן לסוכות עם אפשרות לבנית סוכה 0548406743 054-840-6743 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">29.9.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">יחידה ברחוב קרית יערים אפשרויות להשכרה לשבת תשובה ויו&#x27;&#x27;כ וכן לסוכות עם אפשרות לבנית סוכה 0548406743</div>
+  <div class="foot"><span class="phone">054-840-6743</span><a class="call" href="tel:+972548406743">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="להשכרה יחידה יפה ונקיה בשכונה בגבעת זאב
+פנויה ליום כיפור/שבת האזינו
+5 מיטות, 2 מזרונים
+לפרטים נוספים 0533177987 053-317-7987 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">29.9.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה יחידה יפה ונקיה בשכונה בגבעת זאב
+פנויה ליום כיפור/שבת האזינו
+5 מיטות, 2 מזרונים
+לפרטים נוספים 0533177987</div>
+  <div class="foot"><span class="phone">053-317-7987</span><a class="call" href="tel:+972533177987">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="להשכרה לשבת הקרובה *לא לשמחת תורה* ברח&#x27; האתרוג 3 חד מרוהטת מלא 0505305705 050-530-5705 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">29.9.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לשבת הקרובה *לא לשמחת תורה* ברח&#x27; האתרוג 3 חד מרוהטת מלא 0505305705</div>
+  <div class="foot"><span class="phone">050-530-5705</span><a class="call" href="tel:+972505305705">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="להשכרה *לשבתות*
+ *לא לחגים*
+דירה גדולה ומרווחת 5 חדרים 
+מאווררת ומטופחת 
+ברחוב קריית יערים.
+מעל הבית כנסת 
+עם מרפסת ונוף משגע לכיוון האתרוג 
+
+
+מה בדירה?
+10 מיטות 
+1 ספה גדולה כמו מיטה
+8 מזרנים
+עריסת תינוק
+
+ *המשפחה המשכירה היא משפחה מאנ&quot;ש* 053-900-6299 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">29.9.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה *לשבתות*
+ *לא לחגים*
+דירה גדולה ומרווחת 5 חדרים 
+מאווררת ומטופחת 
+ברחוב קריית יערים.
+מעל הבית כנסת 
+עם מרפסת ונוף משגע לכיוון האתרוג 
+
+
+מה בדירה?
+10 מיטות 
+1 ספה גדולה כמו מיטה
+8 מזרנים
+עריסת תינוק
+
+ *המשפחה המשכירה היא משפחה מאנ&quot;ש*</div>
+  <div class="foot"><span class="phone">053-900-6299</span><a class="call" href="tel:+972539006299">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="להשכרה לשבתות כולל שבת זו וכן ליוה&quot;כ
+דירת 4 חד&#x27; משופצת ויפה 
+רח&#x27; יהושוע בן נון 
+לפרטים נוספים  052-7136587 052-713-6587 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">29.9.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לשבתות כולל שבת זו וכן ליוה&quot;כ
+דירת 4 חד&#x27; משופצת ויפה 
+רח&#x27; יהושוע בן נון 
+לפרטים נוספים  052-7136587</div>
+  <div class="foot"><span class="phone">052-713-6587</span><a class="call" href="tel:+972527136587">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="להשכרה *לחג ראשון בלבד* דירת 4.5 חדרים גדולה ומרווחת ברחוב הגיא. קיימת סוכה. למשפחה *ללא ילדים קטנים* עדיפות לזוג בלבד. 0545572667 054-557-2667 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">29.9.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה *לחג ראשון בלבד* דירת 4.5 חדרים גדולה ומרווחת ברחוב הגיא. קיימת סוכה. למשפחה *ללא ילדים קטנים* עדיפות לזוג בלבד. 0545572667</div>
+  <div class="foot"><span class="phone">054-557-2667</span><a class="call" href="tel:+972545572667">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="1" data-text="להשכרה לשבת הקרובה
+בית פרטי 3 קומות
+8 חדרים עם נוף מדהים,
+בית מושקע ומטופח ביותר.
+בבית יש :
+19 מיטות
+8 מזרנים
+2 לולים לתינוקות,
+יש גם משחקים לילדים,
+כולל מצעים,
+2 דקות הליכה לפארק הגיא.
+כולל פלטה ומיחם, 058-753-9677 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">28.9.2022</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה לשבת הקרובה
+בית פרטי 3 קומות
+8 חדרים עם נוף מדהים,
+בית מושקע ומטופח ביותר.
+בבית יש :
+19 מיטות
+8 מזרנים
+2 לולים לתינוקות,
+יש גם משחקים לילדים,
+כולל מצעים,
+2 דקות הליכה לפארק הגיא.
+כולל פלטה ומיחם,</div>
+  <div class="foot"><span class="phone">058-753-9677</span><a class="call" href="tel:+972587539677">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="1" data-text="שבוע טוב
+עקב שינויים בתכניות יש ברשותי דירה להשכיר לימי ראש השנה הבעל&quot;ט
+מדובר בדירת 6 חדרים(אחד קטן )
+(שני חדרים מחוברים)
+אם זה עדיין רלוונטי נא לעדכן בהקדם 058-753-9677 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">25.9.2022</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">שבוע טוב
+עקב שינויים בתכניות יש ברשותי דירה להשכיר לימי ראש השנה הבעל&quot;ט
+מדובר בדירת 6 חדרים(אחד קטן )
+(שני חדרים מחוברים)
+אם זה עדיין רלוונטי נא לעדכן בהקדם</div>
+  <div class="foot"><span class="phone">058-753-9677</span><a class="call" href="tel:+972587539677">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="1" data-text="אתה יכול לפרסם?
+
+התפנתה דירה סביבות 10 דק&#x27; הליכה. 
+2 חדרי שינה וסלון 
+יש 6 מיטות ואפשרות להכניס 6 מזרונים. 058-753-9677 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">25.9.2022</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">אתה יכול לפרסם?
+
+התפנתה דירה סביבות 10 דק&#x27; הליכה. 
+2 חדרי שינה וסלון 
+יש 6 מיטות ואפשרות להכניס 6 מזרונים.</div>
+  <div class="foot"><span class="phone">058-753-9677</span><a class="call" href="tel:+972587539677">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="דירה להשכרה ברחוב הראם
+5 חדרים 6 מיטות 
+ועוד יחידה 2 מיטות ועוד יחידה של 2 מיטות ו3 מזרונים 
+0527692032 052-769-2032 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">24.9.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">דירה להשכרה ברחוב הראם
+5 חדרים 6 מיטות 
+ועוד יחידה 2 מיטות ועוד יחידה של 2 מיטות ו3 מזרונים 
+0527692032</div>
+  <div class="foot"><span class="phone">052-769-2032</span><a class="call" href="tel:+972527692032">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="דירה להשכרה לשבת זה בגבעת זאב בשכונה 5 מיטות 4 מזרונים 1000 שקל   0533186075 053-318-6075 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">22.9.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">דירה להשכרה לשבת זה בגבעת זאב בשכונה 5 מיטות 4 מזרונים 1000 שקל   0533186075</div>
+  <div class="foot"><span class="phone">053-318-6075</span><a class="call" href="tel:+972533186075">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="1" data-text="יש לי דירה ברחוב המכבים 3 חדרים
+4 מיטות + 6 מזרונים
+
+ומעוניין להחליפו בדירת 4 חדרים עם 6 מיטות  + מיזרונים 058-753-9677 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">22.9.2022</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">יש לי דירה ברחוב המכבים 3 חדרים
+4 מיטות + 6 מזרונים
+
+ומעוניין להחליפו בדירת 4 חדרים עם 6 מיטות  + מיזרונים</div>
+  <div class="foot"><span class="phone">058-753-9677</span><a class="call" href="tel:+972587539677">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="שבוע טוב
+מעוניין להשכיר דירה לראש השנה 
+דירה באגן בהאיילות ברחוב היעל 10 קומה 2 
+2 חדרי שינה 4 מיטות נוחות + סלון מטבח ביחד 
+חצר גדולה עם טרמפולינה  וערסל במחיר 1000 שקל 
+טלפון 0504369435 050-436-9435 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">22.9.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">שבוע טוב
+מעוניין להשכיר דירה לראש השנה 
+דירה באגן בהאיילות ברחוב היעל 10 קומה 2 
+2 חדרי שינה 4 מיטות נוחות + סלון מטבח ביחד 
+חצר גדולה עם טרמפולינה  וערסל במחיר 1000 שקל 
+טלפון 0504369435</div>
+  <div class="foot"><span class="phone">050-436-9435</span><a class="call" href="tel:+972504369435">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="דירה לזוג (2 מיטות)
+בנווה מנחם 
+(20 דק&#x27; הליכה)
+פנוי. מיידי. 
+0534161650 053-416-1650 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">22.9.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">דירה לזוג (2 מיטות)
+בנווה מנחם 
+(20 דק&#x27; הליכה)
+פנוי. מיידי. 
+0534161650</div>
+  <div class="foot"><span class="phone">053-416-1650</span><a class="call" href="tel:+972534161650">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="להשכרה לשבת זו,
+ *שבת סליחות*
+דירת 2.5 חדרים ברחוב האתרוג
+לפרטים 058-3204087 058-320-4087 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">22.9.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">להשכרה לשבת זו,
+ *שבת סליחות*
+דירת 2.5 חדרים ברחוב האתרוג
+לפרטים 058-3204087</div>
+  <div class="foot"><span class="phone">058-320-4087</span><a class="call" href="tel:+972583204087">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="דירה להשכרה בשבת בג&quot;ז
+רחוב עופרה 6 
+4 מיטות 7 מזרונים 
+13 דקות הליכה 
+0527639851 052-763-9851 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">21.9.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">דירה להשכרה בשבת בג&quot;ז
+רחוב עופרה 6 
+4 מיטות 7 מזרונים 
+13 דקות הליכה 
+0527639851</div>
+  <div class="foot"><span class="phone">052-763-9851</span><a class="call" href="tel:+972527639851">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="1" data-text="שלום וברכה.
+יש לי דירה עם 8 מיטות, (4 חדרי שינה) ברחוב הראם 5 להשכיר לראש השנה. 
+052.717.5869 
+058.717.5869 
+אריה ברזנסקי 058-753-9677 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">19.9.2022</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">שלום וברכה.
+יש לי דירה עם 8 מיטות, (4 חדרי שינה) ברחוב הראם 5 להשכיר לראש השנה. 
+052.717.5869 
+058.717.5869 
+אריה ברזנסקי</div>
+  <div class="foot"><span class="phone">058-753-9677</span><a class="call" href="tel:+972587539677">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="1" data-text="להשכרה קראוון 6 מיטות
+עם אפשרות לבחור מיקום אבל צריך לדאוג לחשמל 
+במחיר תקנון 058-753-9677 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">18.9.2022</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">להשכרה קראוון 6 מיטות
+עם אפשרות לבחור מיקום אבל צריך לדאוג לחשמל 
+במחיר תקנון</div>
+  <div class="foot"><span class="phone">058-753-9677</span><a class="call" href="tel:+972587539677">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="1" data-text="התפנתה
+הראם 5
+5 חדרים מזגן בכל חדר
+ וילה 11 מיטות + יחידת הורים
+דירת ליגה 058-753-9677 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">18.9.2022</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">התפנתה
+הראם 5
+5 חדרים מזגן בכל חדר
+ וילה 11 מיטות + יחידת הורים
+דירת ליגה</div>
+  <div class="foot"><span class="phone">058-753-9677</span><a class="call" href="tel:+972587539677">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="1" data-text="ערב טוב
+שמי ישי בלומנטל
+אנחנו גרים בשכונת משהב בגבעת זאב
+לא נהיה בביתינו בראש השנה
+נוכל להשכיר אותו
+יש לנו 5 חדרי שינה
+10 מיטות +  3 מיזרונים 058-753-9677 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">18.9.2022</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">ערב טוב
+שמי ישי בלומנטל
+אנחנו גרים בשכונת משהב בגבעת זאב
+לא נהיה בביתינו בראש השנה
+נוכל להשכיר אותו
+יש לנו 5 חדרי שינה
+10 מיטות +  3 מיזרונים</div>
+  <div class="foot"><span class="phone">058-753-9677</span><a class="call" href="tel:+972587539677">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="1" data-text="*שכונת משהב*
+
+ אנו מעוניינים להשכיר את דירתינו לראש השנה - דירה משופצת, נאה, רחבה ונעימה עם שלושה חדרים ומרפסת לנוף. 
+4 מיטות ומיטת תינוק
+
+*חשוב מאד שיקפידו על שמירת ניקיון הדירה* 058-753-9677 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">14.9.2022</span><span class="src">השכרת דירות לקארלין 2</span><span class="btag">⚠️ ייתכן תיווך</span></div>
+  
+  <div class="body">*שכונת משהב*
+
+ אנו מעוניינים להשכיר את דירתינו לראש השנה - דירה משופצת, נאה, רחבה ונעימה עם שלושה חדרים ומרפסת לנוף. 
+4 מיטות ומיטת תינוק
+
+*חשוב מאד שיקפידו על שמירת ניקיון הדירה*</div>
+  <div class="foot"><span class="phone">058-753-9677</span><a class="call" href="tel:+972587539677">📞 חייג</a></div>
+</div>
+<div class="card" data-year="2022" data-broker="0" data-text="יש לי דירת 2 חדרים 2 מיטות + 2 מיזרונים כ 7 דקות הליכה
+ומעוניין להחליפו בדירה יותר גדולה של 3 חדרים
+
+לפרטים 054-6443841 054-644-3841 השכרת דירות לקארלין 2">
+  <div class="top"><span class="date">7.9.2022</span><span class="src">השכרת דירות לקארלין 2</span></div>
+  
+  <div class="body">יש לי דירת 2 חדרים 2 מיטות + 2 מיזרונים כ 7 דקות הליכה
+ומעוניין להחליפו בדירה יותר גדולה של 3 חדרים
+
+לפרטים 054-6443841</div>
+  <div class="foot"><span class="phone">054-644-3841</span><a class="call" href="tel:+972546443841">📞 חייג</a></div>
+</div>
+</div>
+</div>
+<div class="lightbox" id="lb" onclick="this.classList.remove('on')"><img id="lbimg" src=""></div>
+<footer>נבנה אוטומטית מייצוא הצ'אט · המספרים כפי שפורסמו · יש לאמת זמינות ומחיר מול המפרסם · ⚠️=מספר שפרסם 3+ דירות (ייתכן מתווך)</footer>
+<script>
+const grid=document.getElementById('grid');
+const q=document.getElementById('q'), count=document.getElementById('count');
+let filter='all', roomFilter='all', takanonOnly=false;
+let cards=[];
+
+// --- זיהוי מספר חדרים מתוך טקסט הדירה ---
+const wordNum={'שני':2,'שתי':2,'שניים':2,'שתיים':2,'שלוש':3,'שלושה':3,'ארבע':4,'ארבעה':4,'חמש':5,'חמישה':5,'שש':6,'שישה':6,'שבע':7,'שבעה':7,'שמונה':8};
+function detectRooms(t){
+  let m=t.match(/(\d+)\s*חדר(?:י|ים)?(?:\s*שינה)?/);
+  if(m){const v=parseInt(m[1],10); if(v>=1&&v<=15) return v;}
+  m=t.match(/(שני|שתי|שניים|שתיים|שלושה|שלוש|ארבעה|ארבע|חמישה|חמש|שישה|שש|שבעה|שבע|שמונה)\s+חדר/);
+  if(m&&wordNum[m[1]]) return wordNum[m[1]];
+  m=t.match(/מספר\s*חדרים[^\d]{0,10}(\d+)/);
+  if(m){const v=parseInt(m[1],10); if(v>=1&&v<=15) return v;}
+  return 0;
+}
+
+// --- אתחול מטא-נתונים לכל כרטיס (חדרים + מחיר תקנון + תגיות) ---
+function initCard(c){
+  const t=c.dataset.text||'';
+  if(!c.dataset.rooms) c.dataset.rooms=detectRooms(t);
+  if(c.dataset.takanon===undefined || c.dataset.takanon==='')
+    c.dataset.takanon=/תקנון/.test(t)?'1':'0';
+  // תגית "מחיר תקנון" בראש הכרטיס (פעם אחת)
+  if(c.dataset.takanon==='1' && !c.querySelector('.ttag')){
+    const top=c.querySelector('.top');
+    if(top){const s=document.createElement('span');s.className='ttag';s.textContent='💰 מחיר תקנון';top.appendChild(s);}
+  }
+}
+function refreshCards(){ cards=[...document.querySelectorAll('.card')]; cards.forEach(initCard); }
+
+function matchRoom(c){
+  if(roomFilter==='all') return true;
+  const r=parseInt(c.dataset.rooms,10);
+  if(roomFilter==='none') return r===0;
+  if(roomFilter==='6plus') return r>=6;
+  return r===parseInt(roomFilter,10);
+}
+function apply(){
+  const s=q.value.trim().toLowerCase();
+  let n=0;
+  cards.forEach(c=>{
+    let ok=true;
+    if(s && !c.dataset.text.includes(s)) ok=false;
+    if(filter==='broker' && c.dataset.broker!=='1') ok=false;
+    if(filter.startsWith('year:') && c.dataset.year!==filter.slice(5)) ok=false;
+    if(!matchRoom(c)) ok=false;
+    if(takanonOnly && c.dataset.takanon!=='1') ok=false;
+    c.style.display=ok?'':'none'; if(ok)n++;
+  });
+  count.textContent=n+' דירות';
+}
+q.addEventListener('input',apply);
+document.querySelectorAll('.fbtn').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.fbtn').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on'); filter=b.dataset.f; apply();
+}));
+document.querySelectorAll('.rbtn').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.rbtn').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on'); roomFilter=b.dataset.r; apply();
+}));
+document.getElementById('tbtn').addEventListener('click',function(){
+  takanonOnly=!takanonOnly; this.classList.toggle('on',takanonOnly); apply();
+});
+function openLb(src){document.getElementById('lbimg').src=src;document.getElementById('lb').classList.add('on');}
+
+// --- קיפול סעיף התקנון ---
+document.getElementById('takanonHead').addEventListener('click',()=>{
+  const b=document.getElementById('takanonBody');
+  b.classList.toggle('on');
+  document.getElementById('takanonArrow').textContent=b.classList.contains('on')?'▲':'▼';
+});
+
+// ================= הוספת דירות (נשמר בדפדפן) =================
+const LS_KEY='gz_my_dirot_v1';
+function loadMine(){ try{return JSON.parse(localStorage.getItem(LS_KEY)||'[]');}catch(e){return [];} }
+function saveMine(a){ localStorage.setItem(LS_KEY,JSON.stringify(a)); }
+
+function buildCard(o){
+  const el=document.createElement('div');
+  el.className='card mine';
+  el.dataset.year='2026';
+  el.dataset.broker='0';
+  el.dataset.rooms=(o.rooms&&+o.rooms>0)?o.rooms:detectRooms(o.text);
+  el.dataset.takanon=o.takanon?'1':(/תקנון/.test(o.text)?'1':'0');
+  el.dataset.text=o.text+' '+(o.phone||'')+' '+(o.src||'')+' נוסף על ידך';
+  el.dataset.mid=o.id;
+  const top=document.createElement('div'); top.className='top';
+  const d=document.createElement('span'); d.className='date'; d.textContent=o.date||''; top.appendChild(d);
+  const sr=document.createElement('span'); sr.className='src'; sr.textContent='⭐ '+(o.src?o.src:'נוסף על ידך'); top.appendChild(sr);
+  el.appendChild(top);
+  const body=document.createElement('div'); body.className='body'; body.textContent=o.text; el.appendChild(body);
+  const foot=document.createElement('div'); foot.className='foot';
+  const ph=document.createElement('span'); ph.className='phone'; ph.textContent=o.phone||'—'; foot.appendChild(ph);
+  if(o.phone){
+    const digits=o.phone.replace(/\D/g,'').replace(/^0/,'972');
+    const a=document.createElement('a'); a.className='call'; a.href='tel:+'+digits; a.textContent='📞 חייג'; foot.appendChild(a);
+  }
+  const del=document.createElement('button'); del.className='delbtn'; del.textContent='🗑 מחק';
+  del.onclick=()=>{ if(confirm('למחוק את הדירה שהוספת?')){ let a=loadMine().filter(x=>x.id!==o.id); saveMine(a); el.remove(); refreshCards(); apply(); } };
+  foot.appendChild(del);
+  el.appendChild(foot);
+  return el;
+}
+function renderMine(){
+  const a=loadMine();
+  // מסירים קיימים ומרנדרים מחדש בראש
+  document.querySelectorAll('.card.mine').forEach(x=>x.remove());
+  a.slice().reverse().forEach(o=>{ grid.insertBefore(buildCard(o),grid.firstChild); });
+  refreshCards(); apply();
+}
+
+// טופס
+const addForm=document.getElementById('addForm');
+document.getElementById('addToggle').addEventListener('click',()=>{ addForm.classList.toggle('on'); if(addForm.classList.contains('on')) addForm.scrollIntoView({behavior:'smooth'}); });
+document.getElementById('afCancel').addEventListener('click',()=>addForm.classList.remove('on'));
+document.getElementById('afSave').addEventListener('click',()=>{
+  const text=document.getElementById('afText').value.trim();
+  if(!text){ alert('נא למלא תיאור לדירה'); return; }
+  const o={ id:Date.now()+''+Math.floor(Math.random()*1000),
+    text:text,
+    phone:document.getElementById('afPhone').value.trim(),
+    rooms:document.getElementById('afRooms').value,
+    src:document.getElementById('afSrc').value.trim(),
+    takanon:document.getElementById('afTakanon').checked,
+    date:new Date().toLocaleDateString('he-IL') };
+  const a=loadMine(); a.push(o); saveMine(a);
+  document.getElementById('afText').value='';document.getElementById('afPhone').value='';document.getElementById('afSrc').value='';document.getElementById('afRooms').value='0';document.getElementById('afTakanon').checked=false;
+  addForm.classList.remove('on');
+  renderMine();
+});
+
+// ייצוא / ייבוא לגיבוי (כדי להעביר בין מכשירים / להעלות לגיטהאב)
+document.getElementById('afExport').addEventListener('click',()=>{
+  const data=JSON.stringify(loadMine(),null,2);
+  const blob=new Blob([data],{type:'application/json'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a'); a.href=url; a.download='דירות_שהוספתי.json'; a.click();
+  URL.revokeObjectURL(url);
+});
+document.getElementById('afImport').addEventListener('click',()=>document.getElementById('afFile').click());
+document.getElementById('afFile').addEventListener('change',function(){
+  const f=this.files[0]; if(!f) return;
+  const r=new FileReader();
+  r.onload=e=>{ try{ const arr=JSON.parse(e.target.result); if(!Array.isArray(arr)) throw 0;
+    const cur=loadMine(); const ids=new Set(cur.map(x=>x.id));
+    arr.forEach(o=>{ if(!ids.has(o.id)) cur.push(o); }); saveMine(cur); renderMine();
+    alert('יובאו '+arr.length+' דירות (כפילויות דולגו).');
+  }catch(err){ alert('קובץ לא תקין'); } };
+  r.readAsText(f);
+});
+
+// אתחול
+refreshCards();
+renderMine();
+</script>
+</body></html>
