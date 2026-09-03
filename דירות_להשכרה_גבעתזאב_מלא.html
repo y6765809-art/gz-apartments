@@ -4,6 +4,9 @@
 <meta name="robots" content="noindex, nofollow, noarchive">
 <meta name="googlebot" content="noindex, nofollow">
 <title>דירות להשכרה בג"ז — מאגר מלא</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#f4f6f8;--card:#fff;--ink:#1f2a37;--sub:#5b6b7b;--line:#e3e8ee;--brand:#0f7b6c;--brand2:#e7f4f1;--accent:#c2410c;--shadow:0 1px 3px rgba(16,24,40,.08),0 1px 2px rgba(16,24,40,.04)}
 *{box-sizing:border-box}
@@ -92,9 +95,47 @@ header h1{font-size:25px;letter-spacing:-.2px}
 .card:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(16,24,40,.13),0 3px 8px rgba(16,24,40,.07)}
 .call{transition:filter .15s}.call:hover{filter:brightness(1.1)}
 @media (max-width:560px){.grid{grid-template-columns:1fr}.fgroup{width:100%}.barfoot{width:100%;justify-content:space-between}}
+
+/* ===== professional design layer (overrides above) ===== */
+:root{
+  --bg:#f4f1ea;--card:#fffdf9;--ink:#242e2c;--sub:#5f6d67;--line:#e7e1d4;
+  --brand:#2f8175;--brand2:#e9f1ee;--accent:#b06a41;
+  --gold:#b0812c;--shadow:0 1px 2px rgba(28,38,34,.05),0 5px 18px rgba(28,38,34,.05);
+  --serif:"Frank Ruhl Libre",Georgia,serif;--sans:"Heebo","Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#10171a;--card:#182226;--ink:#e7eeeb;--sub:#9fada8;--line:#28353a;
+  --brand:#4cc0aa;--brand2:#16302b;--accent:#e2793f;--gold:#d9ad5e;
+}}
+body{font-family:var(--sans);-webkit-font-smoothing:antialiased;line-height:1.6}
+/* nameplate header */
+header{background:#2a7a6f;border-bottom:3px solid var(--gold);padding:34px 20px 30px;text-align:center}
+.heb-eyebrow{display:flex;align-items:center;justify-content:center;gap:13px;font-family:var(--sans);font-weight:600;font-size:12px;letter-spacing:.14em;color:#f2dca6;margin:0 0 12px}
+.heb-eyebrow::before,.heb-eyebrow::after{content:"";height:1px;width:34px;background:rgba(242,220,166,.6)}
+header h1{font-family:var(--serif);font-weight:900;font-size:31px;letter-spacing:0;color:#fff;margin:0 0 9px}
+header p{font-size:14px;color:rgba(255,255,255,.9);max-width:70ch;margin-inline:auto}
+/* search + filters */
+.bar input{border-radius:12px;font-family:var(--sans);font-size:15px}
+.fgroup{border-radius:12px}
+.fbtn,.rbtn,.tbtn,.addbtn,.call,.glabel,.count{font-family:var(--sans)}
+.rbtn.on{background:var(--gold);border-color:var(--gold);color:#3a2b06}
+.tbtn{border-color:#d9b24a;color:#a9791a}.tbtn.on{background:var(--gold);border-color:var(--gold);color:#3a2b06}
+/* cards */
+.grid{gap:16px}
+.card{border-radius:14px;box-shadow:var(--shadow);border-color:var(--line);gap:10px}
+.card:hover{box-shadow:0 2px 8px rgba(28,38,34,.07),0 12px 30px rgba(28,38,34,.09);transform:translateY(-2px);transition:box-shadow .15s,transform .15s}
+.date{color:var(--brand);font-weight:700}
+.src{background:var(--brand2);color:var(--brand)}
+.body{color:#3a4642}
+.call{background:var(--brand);border-radius:10px;font-family:var(--sans)}
+.count{color:var(--ink);font-weight:700}
+/* takanon box header solid gold */
+.takanon-head{background:#b0812c}
+footer{color:var(--sub);font-family:var(--sans)}
 </style></head><body>
 <header>
-<h1>🏠 דירות להשכרה בגבעת זאב — מאגר מלא</h1>
+<div class="heb-eyebrow"><span>קהילת קרלין־סטולין · גבעת זאב</span></div>
+<h1>דירות להשכרה בגבעת זאב — מאגר מלא</h1>
 <p>מקבוצות וואטסאפ + התכתבויות אישיות · חיפוש חכם · סינון לפי חדרים / שנה / מחיר-תקנון · כולל התקנון הרשמי · ממוין מהחדש לישן</p>
 <p style="margin:10px 0 0"><a href="stats.html" style="display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.3);color:#fff;text-decoration:none;padding:6px 13px;border-radius:9px;font-size:14px">📊 פילוח מחירים (תקנון / מפורש / לא צוין)</a></p>
 <div class="mynote" style="background:rgba(255,255,255,.15);border-color:rgba(255,255,255,.3);color:#fff">📝 הצורך שלך (מהצ'אט האישי): 4 זוגות, 9 ילדים, 3 תינוקות</div>
