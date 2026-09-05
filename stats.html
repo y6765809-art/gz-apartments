@@ -5,6 +5,9 @@
 <meta name="robots" content="noindex,nofollow">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>מעבדת התקנון — שוק מול תקנון · גבעת זאב</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#f4f6f8;--card:#fff;--card2:#f9fafb;--ink:#1f2a37;--sub:#5b6b7b;--muted:#8a97a5;--line:#e3e8ee;
@@ -141,12 +144,34 @@ summary{cursor:pointer;font-size:14px;color:var(--brand);font-weight:600;padding
   .calc{grid-template-columns:1fr 1fr}.calc .out{grid-column:1/-1}
   .row .name{width:96px}.val{width:88px}
 }
+
+/* ===== professional design layer (overrides above) ===== */
+:root{
+  --bg:#f4f1ea;--card:#fffdf9;--card2:#faf7f0;--ink:#242e2c;--sub:#5f6d67;--muted:#8b938f;--line:#e7e1d4;
+  --brand:#2f8175;--brand-d:#256b60;--brand2:#e9f1ee;--accent:#b06a41;--gold:#b0812c;
+  --serif:"Frank Ruhl Libre",Georgia,serif;--sans:"Heebo","Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root{--bg:#10171a;--card:#182226;--card2:#131b1e;--ink:#e7eeeb;--sub:#9fada8;--line:#28353a;--brand:#4cc0aa;--brand-d:#39a894;--brand2:#16302b;--accent:#e2793f;--gold:#d9ad5e}}
+:root[data-theme="dark"]{--bg:#10171a;--card:#182226;--card2:#131b1e;--ink:#e7eeeb;--sub:#9fada8;--line:#28353a;--brand:#4cc0aa;--brand-d:#39a894;--brand2:#16302b;--accent:#e2793f;--gold:#d9ad5e}
+body{font-family:var(--sans)}
+header{background:#2a7a6f;border-bottom:3px solid var(--gold);text-align:center;padding:34px 20px 30px}
+.heb-eyebrow{display:flex;align-items:center;justify-content:center;gap:13px;font-family:var(--sans);font-weight:600;font-size:12px;letter-spacing:.14em;color:#f2dca6;margin:0 0 12px}
+.heb-eyebrow::before,.heb-eyebrow::after{content:"";height:1px;width:34px;background:rgba(242,220,166,.6)}
+h1{font-family:var(--serif);font-weight:900;font-size:29px;letter-spacing:0}
+header p{max-width:70ch;margin-inline:auto;color:rgba(255,255,255,.9)}
+.top-actions{justify-content:center}
+.btn{font-family:var(--sans);border-radius:9px}
+h2,.finding h3,.part-divider{font-family:var(--serif)}
+.part-divider{background:#2a7a6f;border:1px solid var(--gold);color:#fff;font-weight:700}
+.part-divider.solution{background:var(--brand-d)}
+.finding.gtile{background:#2a7a6f;border:1.5px solid #cfa955}
 </style>
 </head>
 <body>
 <header>
   <div class="wrap">
-    <h1>⚖️ מעבדת התקנון — שוק מול תקנון</h1>
+    <div class="heb-eyebrow"><span>קהילת קרלין־סטולין · גבעת זאב</span></div>
+    <h1>מעבדת התקנון — שוק מול תקנון</h1>
     <p>ניתוח מחירי הדירות בפועל (מתוך המודעות) מול טבלת התקנון הרשמית, ככלי עזר ל<b>בנייה וחידוד של התקנון</b>. מזהה כמה דירות נצמדות לתקנון, כמה נוקבות מחיר משלהן, וכמה רחוקות ממנו — לפי גודל הדירה, המרחק והחג.</p>
     <div class="top-actions">
       <a class="btn" href="index.html">← לרשימת הדירות</a>
