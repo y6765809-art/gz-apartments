@@ -150,6 +150,49 @@ header p{max-width:52rem;font-size:15px;line-height:1.8}.mynote{align-self:cente
 .takanon-box,.addform{border-radius:17px;box-shadow:var(--shadow);border-color:var(--line)}.takanon-head{padding:17px 20px;background:linear-gradient(115deg,#9c722a,#c39745);font-size:15px}.takanon-body{padding:22px}.addform input[type=text],.addform textarea,.addform select{border-radius:10px;padding:10px 12px}.lightbox{backdrop-filter:blur(9px)}
 footer{margin-top:12px;padding:30px 22px 40px}.count{background:var(--brand2);padding:5px 9px;border-radius:8px;font-size:12px}
 @media (max-width:650px){header{min-height:0;padding:42px 18px 34px}.wrap{padding:14px 13px 34px}.bar{top:4px;border-radius:15px;padding:11px}.grid{grid-template-columns:1fr;gap:14px}.card{padding:16px;border-radius:15px}.barfoot{gap:8px}.addbtn{padding:8px 11px}.fgroup{gap:5px}.fbtn,.rbtn,.tbtn{padding:6px 9px}.takanon-head{font-size:13px}}
+
+/* =====================================================================
+   REFINED EDITION — design polish (CSS only; markup/JS untouched)
+   ===================================================================== */
+:root{--edge:#e9e2d4;--paper:#fffdf8;--ink2:#1c2724;--muted:#6c786f;--ok:#2f8175;--ok-d:#174e46;--gold:#c19a44;--gold-d:#9a7524}
+@media (prefers-color-scheme:dark){:root{--edge:#2a373b;--paper:#171f23;--ink2:#e9efec;--muted:#95a49d;--ok:#54c5ad;--ok-d:#2e8f7c;--gold:#d8b061;--gold-d:#b78e42}}
+
+/* — header: quieter, more editorial — */
+header{background:linear-gradient(122deg,#0f3b35 0%,#1c5f55 54%,#2f7568 100%)}
+.heb-eyebrow{font-size:11.5px;letter-spacing:.26em;color:#f0dca2;font-weight:600}
+header h1{font-weight:900;letter-spacing:-.01em}
+header p{color:rgba(255,255,255,.88);font-size:14.5px}
+
+/* — sticky bar: calmer glass — */
+.bar{border-radius:20px;border:1px solid var(--edge);box-shadow:0 10px 30px rgba(22,40,34,.08)}
+.bar input{border-color:var(--edge)}
+.fgroup{border:1px solid var(--edge);background:color-mix(in srgb,var(--paper) 78%,transparent)}
+.glabel{font-size:11px;letter-spacing:.02em;color:var(--muted)}
+.fbtn,.rbtn,.tbtn{border-color:var(--edge);font-weight:600}
+.count{background:transparent;color:var(--muted);font-weight:800;font-size:12.5px;letter-spacing:.03em}
+.count::before{content:"● ";color:var(--ok);font-size:9px;vertical-align:2px}
+
+/* — cards: clearer hierarchy, calmer surface — */
+.grid{gap:18px}
+.card{background:var(--paper);border:1px solid var(--edge);border-radius:16px;padding:0;gap:0;overflow:hidden;
+  box-shadow:0 1px 2px rgba(22,40,34,.04),0 10px 26px rgba(22,40,34,.055)}
+.card::before{content:"";position:absolute;inset-block:0;inset-inline-end:0;width:4px;height:auto;top:0;border-radius:0;
+  background:linear-gradient(180deg,var(--gold),transparent 62%);opacity:.9}
+.card:hover{transform:translateY(-4px);border-color:#dccdb0;
+  box-shadow:0 22px 48px rgba(22,40,34,.13),0 5px 12px rgba(22,40,34,.05)}
+.top{padding:16px 18px 0;gap:7px}
+.src{background:transparent;border:1px solid color-mix(in srgb,var(--ok) 30%,transparent);color:var(--ok);font-weight:600;border-radius:8px;padding:3px 9px}
+.date{color:var(--muted);font-weight:700}
+.btag,.ttag{border-radius:8px;font-weight:700}
+.body{padding:11px 18px 15px;font-size:14.5px;line-height:1.74;color:var(--ink2)}
+.body::first-line{font-family:var(--serif);font-weight:700;font-size:17px;line-height:2.1;color:var(--ink2);letter-spacing:-.01em}
+.imgs{padding:0 18px 4px}
+.foot{margin:0;padding:13px 18px;border-top:1px solid var(--edge);
+  background:linear-gradient(0deg,color-mix(in srgb,var(--ok) 8%,transparent),transparent)}
+.phone{font-size:17px;font-weight:800;color:var(--ink2);letter-spacing:.03em}
+.call{background:var(--ok);border-radius:10px;padding:9px 17px;font-weight:700;box-shadow:0 5px 13px rgba(31,98,88,.22)}
+.call:hover{background:var(--ok-d);filter:none;transform:translateY(-1px)}
+@media (max-width:650px){.card{padding:0}.top{padding:14px 15px 0}.body{padding:10px 15px 13px}.foot{padding:12px 15px}.imgs{padding:0 15px 4px}}
 </style></head><body>
 <header>
 <div class="heb-eyebrow"><span>קהילת קרלין־סטולין · גבעת זאב</span></div>
@@ -1222,7 +1265,7 @@ footer{margin-top:12px;padding:30px 22px 40px}.count{background:var(--brand2);pa
 4 חדרים 5 מיטות! ספה גדולה בסלון + אפשרות למזרנים מרפסת גדולה ממוזג הכל דירה יפה ומסדורת 2 שירותים
 0534483118</div>
   <div class="foot" style="flex-wrap:wrap;gap:8px 10px"><span class="phone">053-448-3118</span><a class="call" href="tel:+972534483118">📞 חייג</a><span class="phone">053-448-3117</span><a class="call" href="tel:+972534483117">📞 חייג</a></div>
-  <div style="font-size:12px;color:#b45309;padding:6px 2px 0;font-weight:600">⚠️ שני מספרים לאותה דירה — לבדוק מי המעודכן</div>
+  <div style="font-size:12px;color:#b45309;padding:2px 18px 13px;font-weight:600">⚠️ שני מספרים לאותה דירה — לבדוק מי המעודכן</div>
 </div>
 <div class="card" data-year="2025" data-broker="0" data-text="דופלקס 6 חד גדולה ומרווחת 12 מיטות ברחוב האיילות 0587691027 058-769-1027 השכרת דירות לחסידי קארלין">
   <div class="top"><span class="date">1.6.2025</span><span class="src">השכרת דירות לחסידי קארלין</span></div>
@@ -2770,7 +2813,7 @@ https://wolfi.online/shabbat/5e2824f8-5ec3-4f6b-b23e-195ee7fe80e6?in=2026-08-28&
 
 *טלפון: 📞* 0523095545</div>
   <div class="foot" style="flex-wrap:wrap;gap:8px 10px"><span class="phone">052-309-5545</span><a class="call" href="tel:+972523095545">📞 חייג</a><span class="phone">054-693-7701</span><a class="call" href="tel:+972546937701">📞 חייג</a></div>
-  <div style="font-size:12px;color:#b45309;padding:6px 2px 0;font-weight:600">⚠️ שני מספרים לאותה דירה — לבדוק מי המעודכן</div>
+  <div style="font-size:12px;color:#b45309;padding:2px 18px 13px;font-weight:600">⚠️ שני מספרים לאותה דירה — לבדוק מי המעודכן</div>
 </div>
 <div class="card" data-year="2024" data-broker="0" data-text="*כרטיס מידע לדירה בג&quot;ז 🏚️                                                  https://whatsform.com/wwnwqk* *Response* #10024 *כתובת (רחוב, מס&#x27; בית, וקומה): 📬  :* ארבעת המינים 9 *מרחק הליכה מפארק הגיא: 🚶♂️ :* חמש דק *מספר חדרים בדירה (כולל סלון גדול): 🚪  :* 4 *מספר מיטות (ראויות לשינת מבוגר): 🛌 :* 6 *מספר מזרונים או מיטות קטנות: 🛋️ :* 10 *מחיר: 💰 :* 2600 *הערות: 🗒️ :* סלון גדול יש אופציה להביא עוד מזרונים *טלפון: 📞 :* 0506859667 050-685-9667 השכרת דירות לחסידי קארלין">
   <div class="top"><span class="date">10.6.2024</span><span class="src">השכרת דירות לחסידי קארלין</span></div>
@@ -3192,7 +3235,7 @@ https://wolfi.online/shabbat/5e2824f8-5ec3-4f6b-b23e-195ee7fe80e6?in=2026-08-28&
  0584001930- מאיר
 0584001931 - לירון</div>
   <div class="foot" style="flex-wrap:wrap;gap:8px 10px"><span class="phone">058-400-1930</span><a class="call" href="tel:+972584001930">📞 חייג</a><span class="phone">058-400-1931</span><a class="call" href="tel:+972584001931">📞 חייג</a></div>
-  <div style="font-size:12px;color:#b45309;padding:6px 2px 0;font-weight:600">⚠️ שני מספרים לאותה דירה — לבדוק מי המעודכן</div>
+  <div style="font-size:12px;color:#b45309;padding:2px 18px 13px;font-weight:600">⚠️ שני מספרים לאותה דירה — לבדוק מי המעודכן</div>
 </div>
 <div class="card" data-year="2023" data-broker="0" data-text="דירה  ברחוב עלמון קרוב לאתרוג 12 מיטות 3 חדרי שינה לפרטים 0527695860 052-769-5860 השכרת דירות לחסידי קארלין">
   <div class="top"><span class="date">5.12.2023</span><span class="src">השכרת דירות לחסידי קארלין</span></div>
@@ -4447,7 +4490,7 @@ https://wolfi.online/shabbat/5e2824f8-5ec3-4f6b-b23e-195ee7fe80e6?in=2026-08-28&
 מחיר לפי תקנון 
 טלפון : 0552950841</div>
   <div class="foot" style="flex-wrap:wrap;gap:8px 10px"><span class="phone">055-295-0841</span><a class="call" href="tel:+972552950841">📞 חייג</a><span class="phone">052-811-4258</span><a class="call" href="tel:+972528114258">📞 חייג</a></div>
-  <div style="font-size:12px;color:#b45309;padding:6px 2px 0;font-weight:600">⚠️ שני מספרים לאותה דירה — לבדוק מי המעודכן</div>
+  <div style="font-size:12px;color:#b45309;padding:2px 18px 13px;font-weight:600">⚠️ שני מספרים לאותה דירה — לבדוק מי המעודכן</div>
 </div>
 <div class="card" data-year="2026" data-broker="0" data-text="להשכרה לחג השבועות.
 דירת 3 חדרים משופצת במבוא הגפן
